@@ -1,0 +1,17 @@
+mkdir backend
+cd backend
+python -m venv .venv
+
+.venv\Scripts\activate
+pip install fastapi uvicorn
+
+.\.venv\Scripts\Activate.ps1
+
+pip freeze > requirements.txt
+
+
+
+front end
+
+cd frontend
+npx expo start 
