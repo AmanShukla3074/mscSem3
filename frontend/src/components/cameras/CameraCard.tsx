@@ -1,15 +1,17 @@
 /**
  * @file components/cameras/CameraCard.tsx
  * Live feed card for a connected IR camera.
+ * Tapping opens CameraExpandedModal for an immersive full-screen view.
  */
 
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Wifi, Network, Zap } from 'lucide-react-native';
 import { IRColors, FontSizes, FontWeights, Radii, Spacing, Shadows } from '@/constants/theme';
 import { Badge } from '@/components/ui/Badge';
 import { IRFeedPlaceholder } from '@/components/ui/IRFeedPlaceholder';
 import { LiveFeedImage } from '@/components/cameras/LiveFeedImage';
+import { CameraExpandedModal } from '@/components/cameras/CameraExpandedModal';
 import type { Camera } from '@/types';
 
 interface CameraCardProps {
@@ -48,51 +50,65 @@ const latencyStyles = StyleSheet.create({
 });
 
 export function CameraCard({ camera, hasActiveAlert }: CameraCardProps) {
+  const [expanded, setExpanded] = useState(false);
+
   return (
-    <View
-      style={[
-        styles.card,
-        Shadows.card,
-        hasActiveAlert && styles.alertBorder,
-      ]}
-    >
-      {/* Feed — live snapshot polling when online, placeholder when offline */}
-      {camera.status === 'online' ? (
-        <LiveFeedImage
-          cameraId={camera.id}
-          cameraName={camera.name}
-          isOnline
-          showDetection={hasActiveAlert}
-          style={styles.feed}
-        />
-      ) : (
-        <IRFeedPlaceholder
-          cameraName={camera.name}
-          isOnline={false}
-          showDetection={hasActiveAlert}
-          style={styles.feed}
-        />
-      )}
+    <>
+      <TouchableOpacity
+        onPress={() => setExpanded(true)}
+        activeOpacity={0.88}
+        style={[
+          styles.card,
+          Shadows.card,
+          hasActiveAlert && styles.alertBorder,
+        ]}
+      >
+        {/* Feed — live snapshot polling when online, placeholder when offline */}
+        {camera.status === 'online' ? (
+          <LiveFeedImage
+            cameraId={camera.id}
+            cameraName={camera.name}
+            isOnline
+            showDetection={hasActiveAlert}
+            style={styles.feed}
+          />
+        ) : (
+          <IRFeedPlaceholder
+            cameraName={camera.name}
+            isOnline={false}
+            showDetection={hasActiveAlert}
+            style={styles.feed}
+          />
+        )}
 
-      {/* Footer info */}
-      <View style={styles.footer}>
-        <View style={styles.nameRow}>
-          <Text style={styles.name} numberOfLines={1}>{camera.name}</Text>
-          <Badge variant={camera.status} />
-        </View>
-
-        <Text style={styles.location} numberOfLines={1}>{camera.fieldLocation}</Text>
-
-        <View style={styles.metaRow}>
-          <View style={styles.connType}>
-            <ConnectionIcon type={camera.type} />
-            <Badge variant={camera.type.toLowerCase() as any} size="sm" />
+        {/* Footer info */}
+        <View style={styles.footer}>
+          <View style={styles.nameRow}>
+            <Text style={styles.name} numberOfLines={1}>{camera.name}</Text>
+            <Badge variant={camera.status} />
           </View>
-          <Badge variant={camera.cropDensity.toLowerCase() as any} label={`${camera.cropDensity}`} size="sm" />
-          <LatencyTag ms={camera.latencyMs} status={camera.status} />
+
+          <Text style={styles.location} numberOfLines={1}>{camera.fieldLocation}</Text>
+
+          <View style={styles.metaRow}>
+            <View style={styles.connType}>
+              <ConnectionIcon type={camera.type} />
+              <Badge variant={camera.type.toLowerCase() as any} size="sm" />
+            </View>
+            <LatencyTag ms={camera.latencyMs} status={camera.status} />
+          </View>
         </View>
-      </View>
-    </View>
+
+        {/* Tap hint */}
+        <View style={styles.tapHint}>
+          <Text style={styles.tapHintText}>Tap to expand ›</Text>
+        </View>
+      </TouchableOpacity>
+
+      {expanded && (
+        <CameraExpandedModal camera={camera} onClose={() => setExpanded(false)} />
+      )}
+    </>
   );
 }
 
@@ -104,7 +120,6 @@ const styles = StyleSheet.create({
     borderColor: IRColors.surfaceBorder,
     overflow: 'hidden',
     flex: 1,
-    minWidth: 200,
   },
   alertBorder: {
     borderColor: IRColors.alertRed,
@@ -144,5 +159,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 2,
+  },
+  tapHint: {
+    paddingHorizontal: Spacing.md,
+    paddingBottom: Spacing.xs,
+  },
+  tapHintText: {
+    color: IRColors.textMuted,
+    fontSize: 10,
+    letterSpacing: 0.3,
   },
 });

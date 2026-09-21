@@ -25,7 +25,10 @@ export type AnimalType =
   | 'Wild Boar'
   | 'Rabbit'
   | 'Fox'
-  | 'Unknown';
+  | 'Unknown'
+  | 'Mobile Phone'
+  | 'Mouse'
+  | 'Duster / Remote';
 
 export type AlertSeverity = 'critical' | 'warning' | 'info';
 

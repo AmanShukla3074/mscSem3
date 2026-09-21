@@ -12,7 +12,7 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Camera, BellRing, Layers } from 'lucide-react-native';
+import { Camera, BellRing } from 'lucide-react-native';
 import { IRColors, FontSizes, FontWeights, Spacing } from '@/constants/theme';
 import { AppHeader } from '@/components/layout/AppHeader';
 import { MetricTile } from '@/components/ui/MetricTile';
@@ -38,13 +38,6 @@ export default function DashboardScreen() {
 
   const onlineCamCount = cameras.filter(c => c.status === 'online').length;
 
-  // Dominant crop density across online cameras
-  const dominantDensity = useMemo(() => {
-    const counts = { Heavy: 0, Medium: 0, Light: 0 };
-    cameras.forEach(c => { counts[c.cropDensity]++; });
-    return (Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'N/A') as string;
-  }, [cameras]);
-
   const handleRefresh = async () => {
     setRefreshing(true);
     await refreshCams();
@@ -60,7 +53,7 @@ export default function DashboardScreen() {
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
       <AppHeader
-        title="AgriIR Guard"
+        title="Fasal Rakshak"
         subtitle="Harvester Dashboard"
         showSimulateButton
       />
@@ -102,19 +95,6 @@ export default function DashboardScreen() {
             accentColor={activeAlertCount > 0 ? IRColors.alertRed : IRColors.textPrimary}
             icon={<BellRing size={16} color={activeAlertCount > 0 ? IRColors.alertRed : IRColors.textSecondary} />}
             sublabel={activeAlertCount > 0 ? 'ACTION REQUIRED' : 'All clear'}
-          />
-          <MetricTile
-            label="Crop Density"
-            value={dominantDensity}
-            accentColor={
-              dominantDensity === 'Heavy'
-                ? IRColors.alertRed
-                : dominantDensity === 'Medium'
-                  ? IRColors.alertAmber
-                  : IRColors.statusGreen
-            }
-            icon={<Layers size={16} color={IRColors.textSecondary} />}
-            sublabel="Field regime"
           />
         </View>
 
@@ -178,13 +158,11 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
   },
   feedGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
+    flexDirection: 'column',
     gap: Spacing.sm,
   },
   feedItem: {
     flex: 1,
-    minWidth: '45%',
   },
   activeAlertsSection: {
     marginTop: Spacing.md,

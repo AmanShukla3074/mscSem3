@@ -44,6 +44,71 @@ def broadcast_alert(alert_dict: dict) -> None:
             pass
 
 
+def broadcast_detection(
+    camera_id: str,
+    camera_name: str,
+    crop_density: str,
+    class_name: str,
+    confidence: float,
+    bbox_norm: dict,
+    frame_bgr,  # numpy ndarray
+) -> None:
+    """
+    Called from the video_stream background thread when YOLO fires a detection.
+    Creates an alert record, saves a JPEG snapshot, and SSE-broadcasts immediately.
+    Must be safe to call from a non-async background thread.
+    """
+    import uuid as _uuid
+    from datetime import datetime, timezone
+    import cv2 as _cv2
+    from app.services.store import store as _store
+
+    alert_id = f"det-{_uuid.uuid4().hex[:10]}"
+    now = datetime.now(timezone.utc).isoformat()
+
+    # Annotate snapshot with bounding box
+    try:
+        h, w = frame_bgr.shape[:2]
+        vis = frame_bgr.copy()
+        x1 = int(bbox_norm["x"] * w)
+        y1 = int(bbox_norm["y"] * h)
+        x2 = int((bbox_norm["x"] + bbox_norm["width"]) * w)
+        y2 = int((bbox_norm["y"] + bbox_norm["height"]) * h)
+        _cv2.rectangle(vis, (x1, y1), (x2, y2), (0, 60, 255), 2)
+        label = f"{class_name} {confidence * 100:.0f}%"
+        _cv2.putText(vis, label, (x1, max(y1 - 6, 14)),
+                     _cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 60, 255), 2, _cv2.LINE_AA)
+        ok, buf = _cv2.imencode(".jpg", vis, [int(_cv2.IMWRITE_JPEG_QUALITY), 75])
+        jpeg_bytes = buf.tobytes() if ok else b""
+    except Exception as exc:
+        print(f"[detector] Snapshot encode error: {exc}")
+        jpeg_bytes = b""
+
+    if jpeg_bytes:
+        _store.save_snapshot(alert_id, jpeg_bytes)
+
+    # Determine severity
+    severity = "critical" if confidence >= 0.70 else "warning"
+
+    alert = {
+        "id": alert_id,
+        "camera_id": camera_id,
+        "camera_name": camera_name,
+        "timestamp": now,
+        "animal_type": class_name,
+        "confidence_score": confidence,
+        "crop_density": crop_density,
+        "snapshot_uri": f"/api/alerts/{alert_id}/snapshot" if jpeg_bytes else "",
+        "bounding_box": bbox_norm,
+        "status": "active",
+        "severity": severity,
+        "resolution_note": None,
+    }
+    _store.add_alert(alert)
+    broadcast_alert(alert)
+    print(f"[detector] Alert dispatched: {class_name} {confidence * 100:.1f}% on {camera_name}")
+
+
 # ─────────────────────────────────────────────
 # Helpers
 # ─────────────────────────────────────────────

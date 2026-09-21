@@ -11,10 +11,3297 @@
       "crop_density": "Medium",
       "status": "offline",
       "latency_ms": 0,
-      "last_seen_at": "2026-09-21T14:42:59.846268+00:00"
+      "last_seen_at": "2026-09-21T17:45:36.008431+00:00"
     }
   ],
   "alerts": [
+    {
+      "id": "det-ab5c44a253",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:41:43.434109+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6511,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ab5c44a253/snapshot",
+      "bounding_box": {
+        "x": 0.5934,
+        "y": 0.5359,
+        "width": 0.1562,
+        "height": 0.2537
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-8eaff8adce",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:41:39.174822+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.739,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8eaff8adce/snapshot",
+      "bounding_box": {
+        "x": 0.597,
+        "y": 0.5964,
+        "width": 0.1811,
+        "height": 0.2186
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-31d69b13d7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:41:34.775385+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7003,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-31d69b13d7/snapshot",
+      "bounding_box": {
+        "x": 0.6382,
+        "y": 0.7328,
+        "width": 0.211,
+        "height": 0.1289
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-239f0a30e7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:41:30.743540+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7489,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-239f0a30e7/snapshot",
+      "bounding_box": {
+        "x": 0.621,
+        "y": 0.7061,
+        "width": 0.2155,
+        "height": 0.1583
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-38b4787cfa",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:41:28.436747+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3613,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-38b4787cfa/snapshot",
+      "bounding_box": {
+        "x": 0.6448,
+        "y": 0.7469,
+        "width": 0.2172,
+        "height": 0.1125
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8bcdcac6cd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:35:02.278915+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7397,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8bcdcac6cd/snapshot",
+      "bounding_box": {
+        "x": 0.6398,
+        "y": 0.6604,
+        "width": 0.1447,
+        "height": 0.1274
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-a459974281",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:34:33.042259+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7853,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a459974281/snapshot",
+      "bounding_box": {
+        "x": 0.6096,
+        "y": 0.5894,
+        "width": 0.135,
+        "height": 0.203
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8974c713a7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:34:27.672233+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7611,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8974c713a7/snapshot",
+      "bounding_box": {
+        "x": 0.6393,
+        "y": 0.6348,
+        "width": 0.1723,
+        "height": 0.1414
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f2644262bd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:34:10.586076+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7651,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f2644262bd/snapshot",
+      "bounding_box": {
+        "x": 0.6307,
+        "y": 0.6138,
+        "width": 0.1416,
+        "height": 0.1658
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8148f0b2a6",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:29:32.252767+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4243,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8148f0b2a6/snapshot",
+      "bounding_box": {
+        "x": 0.7943,
+        "y": 0.8744,
+        "width": 0.1874,
+        "height": 0.115
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-cc360f11de",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:55.958126+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6933,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cc360f11de/snapshot",
+      "bounding_box": {
+        "x": 0.6515,
+        "y": 0.5713,
+        "width": 0.169,
+        "height": 0.2816
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-bae834212a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:51.597059+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6785,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-bae834212a/snapshot",
+      "bounding_box": {
+        "x": 0.6396,
+        "y": 0.5495,
+        "width": 0.1624,
+        "height": 0.1811
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a3c67a0945",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:46.717188+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7341,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a3c67a0945/snapshot",
+      "bounding_box": {
+        "x": 0.646,
+        "y": 0.5732,
+        "width": 0.1662,
+        "height": 0.1596
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c3cef8a4a8",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:36.563408+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6674,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c3cef8a4a8/snapshot",
+      "bounding_box": {
+        "x": 0.6327,
+        "y": 0.5563,
+        "width": 0.1788,
+        "height": 0.2057
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-79ff727ae6",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:31.113454+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7366,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-79ff727ae6/snapshot",
+      "bounding_box": {
+        "x": 0.6672,
+        "y": 0.5662,
+        "width": 0.1674,
+        "height": 0.1996
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d2d5f4715c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:27.047362+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6943,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d2d5f4715c/snapshot",
+      "bounding_box": {
+        "x": 0.6675,
+        "y": 0.5647,
+        "width": 0.1654,
+        "height": 0.1821
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-27af3f2131",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:25:23.003449+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7049,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-27af3f2131/snapshot",
+      "bounding_box": {
+        "x": 0.6644,
+        "y": 0.5538,
+        "width": 0.1624,
+        "height": 0.1832
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-81c75fa249",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:24:38.971027+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7447,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-81c75fa249/snapshot",
+      "bounding_box": {
+        "x": 0.5592,
+        "y": 0.7035,
+        "width": 0.1511,
+        "height": 0.0962
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-71d5eac9b0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:24:34.938701+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6575,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-71d5eac9b0/snapshot",
+      "bounding_box": {
+        "x": 0.5794,
+        "y": 0.6738,
+        "width": 0.1167,
+        "height": 0.0613
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-eff20a3787",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:24:30.769835+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7176,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-eff20a3787/snapshot",
+      "bounding_box": {
+        "x": 0.5492,
+        "y": 0.7197,
+        "width": 0.1252,
+        "height": 0.1002
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a4604489db",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:23:22.813471+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3672,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a4604489db/snapshot",
+      "bounding_box": {
+        "x": 0.4783,
+        "y": 0.3593,
+        "width": 0.1593,
+        "height": 0.368
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c8d07bf85d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:21:28.774499+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6505,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c8d07bf85d/snapshot",
+      "bounding_box": {
+        "x": 0.6908,
+        "y": 0.1112,
+        "width": 0.1023,
+        "height": 0.3849
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-aff3c6b35e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:20:39.595828+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6847,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-aff3c6b35e/snapshot",
+      "bounding_box": {
+        "x": 0.6866,
+        "y": 0.3903,
+        "width": 0.1675,
+        "height": 0.2646
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d307335621",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:20:16.247525+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7758,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d307335621/snapshot",
+      "bounding_box": {
+        "x": 0.7071,
+        "y": 0.3607,
+        "width": 0.1655,
+        "height": 0.3164
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7f65626121",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:18:23.890731+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6516,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7f65626121/snapshot",
+      "bounding_box": {
+        "x": 0.7512,
+        "y": 0.2513,
+        "width": 0.0445,
+        "height": 0.1494
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-bc6f7c865d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:18:12.018022+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6966,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-bc6f7c865d/snapshot",
+      "bounding_box": {
+        "x": 0.7496,
+        "y": 0.272,
+        "width": 0.042,
+        "height": 0.115
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-b540f3c1fc",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:14:40.969711+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.773,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b540f3c1fc/snapshot",
+      "bounding_box": {
+        "x": 0.4214,
+        "y": 0.2644,
+        "width": 0.1708,
+        "height": 0.5545
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-eb4deed653",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:13:56.932146+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3798,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-eb4deed653/snapshot",
+      "bounding_box": {
+        "x": 0.2503,
+        "y": 0.8346,
+        "width": 0.1181,
+        "height": 0.1654
+      },
+      "status": "acknowledged",
+      "severity": "warning",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-1cf124fc00",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:13:52.426266+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7164,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-1cf124fc00/snapshot",
+      "bounding_box": {
+        "x": 0.3831,
+        "y": 0.6472,
+        "width": 0.2916,
+        "height": 0.3162
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Manually resolved from audit log"
+    },
+    {
+      "id": "det-2c0e4ffe46",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:13:28.114832+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3722,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2c0e4ffe46/snapshot",
+      "bounding_box": {
+        "x": 0.4891,
+        "y": 0.2876,
+        "width": 0.1999,
+        "height": 0.2828
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-04a4306b11",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:13:14.583442+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6964,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-04a4306b11/snapshot",
+      "bounding_box": {
+        "x": 0.4186,
+        "y": 0.2248,
+        "width": 0.3039,
+        "height": 0.4654
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-3951b297de",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:13:06.947214+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.394,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3951b297de/snapshot",
+      "bounding_box": {
+        "x": 0.4807,
+        "y": 0.4956,
+        "width": 0.1744,
+        "height": 0.1638
+      },
+      "status": "acknowledged",
+      "severity": "warning",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-84d3382468",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:12:56.280839+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.73,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-84d3382468/snapshot",
+      "bounding_box": {
+        "x": 0.5471,
+        "y": 0.3119,
+        "width": 0.1694,
+        "height": 0.4046
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-764d8f873c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:44:16.645529+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.684,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-764d8f873c/snapshot",
+      "bounding_box": {
+        "x": 0.122,
+        "y": 0.0,
+        "width": 0.85,
+        "height": 0.9714
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c727e5abff",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:44:15.883664+00:00",
+      "animal_type": "Bottle",
+      "confidence_score": 0.452,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c727e5abff/snapshot",
+      "bounding_box": {
+        "x": 0.1231,
+        "y": 0.0165,
+        "width": 0.2245,
+        "height": 0.9572
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7b6da4f1c5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:44:12.600879+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7985,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7b6da4f1c5/snapshot",
+      "bounding_box": {
+        "x": 0.1541,
+        "y": 0.0019,
+        "width": 0.8459,
+        "height": 0.9725
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-4d8282efe9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:44:08.565127+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8048,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4d8282efe9/snapshot",
+      "bounding_box": {
+        "x": 0.1607,
+        "y": 0.0034,
+        "width": 0.8348,
+        "height": 0.9799
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6deb56a3de",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:44:04.554036+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7539,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6deb56a3de/snapshot",
+      "bounding_box": {
+        "x": 0.1296,
+        "y": 0.0,
+        "width": 0.8681,
+        "height": 0.9732
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c495d45b9a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:44:00.394562+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7325,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c495d45b9a/snapshot",
+      "bounding_box": {
+        "x": 0.1413,
+        "y": 0.0051,
+        "width": 0.8513,
+        "height": 0.96
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e8c6a73622",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:56.272859+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6167,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e8c6a73622/snapshot",
+      "bounding_box": {
+        "x": 0.0043,
+        "y": 0.001,
+        "width": 0.9625,
+        "height": 0.9865
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-dc733b7009",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:52.122870+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5454,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dc733b7009/snapshot",
+      "bounding_box": {
+        "x": 0.154,
+        "y": 0.0,
+        "width": 0.5603,
+        "height": 0.9467
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8b59cfbe5f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:47.509848+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8472,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8b59cfbe5f/snapshot",
+      "bounding_box": {
+        "x": 0.0037,
+        "y": 0.0046,
+        "width": 0.9479,
+        "height": 0.9849
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-93cedac5d3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:43.467411+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.884,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-93cedac5d3/snapshot",
+      "bounding_box": {
+        "x": 0.6201,
+        "y": 0.0018,
+        "width": 0.3796,
+        "height": 0.9142
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d88fe5e1b4",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:39.466337+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4327,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d88fe5e1b4/snapshot",
+      "bounding_box": {
+        "x": 0.1337,
+        "y": 0.0006,
+        "width": 0.8619,
+        "height": 0.9733
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8bd9417073",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:35.429208+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4336,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8bd9417073/snapshot",
+      "bounding_box": {
+        "x": 0.0151,
+        "y": 0.0072,
+        "width": 0.6621,
+        "height": 0.9823
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8ba5189b88",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:31.358315+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5594,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8ba5189b88/snapshot",
+      "bounding_box": {
+        "x": 0.0004,
+        "y": 0.0197,
+        "width": 0.6196,
+        "height": 0.9534
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-06d1705114",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:27.249734+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8331,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-06d1705114/snapshot",
+      "bounding_box": {
+        "x": 0.0862,
+        "y": 0.21,
+        "width": 0.7667,
+        "height": 0.7815
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ece497ef6c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:23.236319+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8313,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ece497ef6c/snapshot",
+      "bounding_box": {
+        "x": 0.1233,
+        "y": 0.2337,
+        "width": 0.7832,
+        "height": 0.7651
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a2e32d769c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:20.136173+00:00",
+      "animal_type": "Cat",
+      "confidence_score": 0.4059,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a2e32d769c/snapshot",
+      "bounding_box": {
+        "x": 0.6927,
+        "y": 0.6039,
+        "width": 0.3068,
+        "height": 0.2806
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f8af3a880c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:19.188153+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8752,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f8af3a880c/snapshot",
+      "bounding_box": {
+        "x": 0.0017,
+        "y": 0.0054,
+        "width": 0.6829,
+        "height": 0.9202
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e8a6f6707c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:18.927674+00:00",
+      "animal_type": "Cell Phone",
+      "confidence_score": 0.4492,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e8a6f6707c/snapshot",
+      "bounding_box": {
+        "x": 0.5742,
+        "y": 0.3001,
+        "width": 0.1077,
+        "height": 0.1757
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b3a498ffce",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:15.135024+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8561,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b3a498ffce/snapshot",
+      "bounding_box": {
+        "x": 0.0013,
+        "y": 0.0011,
+        "width": 0.7099,
+        "height": 0.9324
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2c40f5e1d9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:14.081708+00:00",
+      "animal_type": "Cell Phone",
+      "confidence_score": 0.4162,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2c40f5e1d9/snapshot",
+      "bounding_box": {
+        "x": 0.5885,
+        "y": 0.3041,
+        "width": 0.0916,
+        "height": 0.217
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2686b21e23",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:11.105218+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7484,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2686b21e23/snapshot",
+      "bounding_box": {
+        "x": 0.0024,
+        "y": 0.0051,
+        "width": 0.7004,
+        "height": 0.9133
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-57b5f60847",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:06.990300+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8264,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-57b5f60847/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.6958,
+        "height": 0.948
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-3184ef592f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:04.869393+00:00",
+      "animal_type": "Cell Phone",
+      "confidence_score": 0.7832,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3184ef592f/snapshot",
+      "bounding_box": {
+        "x": 0.563,
+        "y": 0.3395,
+        "width": 0.0217,
+        "height": 0.1086
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a429c87117",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:43:02.921142+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8059,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a429c87117/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.0133,
+        "width": 0.9999,
+        "height": 0.9732
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e22ffc4d9c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:58.876733+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4677,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e22ffc4d9c/snapshot",
+      "bounding_box": {
+        "x": 0.0223,
+        "y": 0.0,
+        "width": 0.616,
+        "height": 0.7652
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-33aa27c227",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:55.810321+00:00",
+      "animal_type": "Cat",
+      "confidence_score": 0.412,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-33aa27c227/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.5341,
+        "width": 0.9112,
+        "height": 0.4511
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-5c1c721837",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:54.863342+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6523,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5c1c721837/snapshot",
+      "bounding_box": {
+        "x": 0.0023,
+        "y": 0.002,
+        "width": 0.6577,
+        "height": 0.9487
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-82eae23343",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:50.801562+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.68,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-82eae23343/snapshot",
+      "bounding_box": {
+        "x": 0.0039,
+        "y": 0.0055,
+        "width": 0.9961,
+        "height": 0.9155
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9a3c5ce43c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:46.783696+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5641,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9a3c5ce43c/snapshot",
+      "bounding_box": {
+        "x": 0.0012,
+        "y": 0.0062,
+        "width": 0.6323,
+        "height": 0.7961
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ffbf60b178",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:42.749204+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5358,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ffbf60b178/snapshot",
+      "bounding_box": {
+        "x": 0.0012,
+        "y": 0.0074,
+        "width": 0.9858,
+        "height": 0.7967
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6abf9cabf0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:38.705820+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6813,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6abf9cabf0/snapshot",
+      "bounding_box": {
+        "x": 0.0041,
+        "y": 0.0143,
+        "width": 0.9959,
+        "height": 0.7789
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d8adcb8296",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:34.684250+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7867,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d8adcb8296/snapshot",
+      "bounding_box": {
+        "x": 0.0019,
+        "y": 0.0065,
+        "width": 0.9946,
+        "height": 0.9811
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-107de6673b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:30.623589+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8838,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-107de6673b/snapshot",
+      "bounding_box": {
+        "x": 0.0027,
+        "y": 0.0007,
+        "width": 0.9973,
+        "height": 0.9768
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2ac8a88f02",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:26.580639+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8222,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2ac8a88f02/snapshot",
+      "bounding_box": {
+        "x": 0.0014,
+        "y": 0.0042,
+        "width": 0.8495,
+        "height": 0.9848
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-14baebe5d3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:22.538549+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.84,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-14baebe5d3/snapshot",
+      "bounding_box": {
+        "x": 0.0018,
+        "y": 0.001,
+        "width": 0.8555,
+        "height": 0.9794
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-3505abb3e0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:18.508014+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.856,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3505abb3e0/snapshot",
+      "bounding_box": {
+        "x": 0.0021,
+        "y": 0.0015,
+        "width": 0.8809,
+        "height": 0.9819
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9405ea16d9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:14.479801+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8635,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9405ea16d9/snapshot",
+      "bounding_box": {
+        "x": 0.0024,
+        "y": 0.008,
+        "width": 0.857,
+        "height": 0.9775
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-526b77e734",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:10.449964+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7838,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-526b77e734/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0113,
+        "width": 0.7694,
+        "height": 0.9417
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-dda0d846ac",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:06.404715+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7703,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dda0d846ac/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.0037,
+        "width": 0.7541,
+        "height": 0.9349
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c9f3ddcc30",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:05.428210+00:00",
+      "animal_type": "Cell Phone",
+      "confidence_score": 0.5834,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c9f3ddcc30/snapshot",
+      "bounding_box": {
+        "x": 0.6124,
+        "y": 0.3696,
+        "width": 0.0534,
+        "height": 0.0851
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9c25de2002",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:42:02.389145+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8351,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9c25de2002/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.0032,
+        "width": 0.7198,
+        "height": 0.9324
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d88988c2b5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:58.326844+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.696,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d88988c2b5/snapshot",
+      "bounding_box": {
+        "x": 0.0033,
+        "y": 0.0036,
+        "width": 0.6487,
+        "height": 0.9461
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f6ff232ba3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:54.276520+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7521,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f6ff232ba3/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.0093,
+        "width": 0.7601,
+        "height": 0.9388
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e3652ec450",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:50.047354+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7251,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e3652ec450/snapshot",
+      "bounding_box": {
+        "x": 0.0017,
+        "y": 0.0044,
+        "width": 0.9471,
+        "height": 0.947
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-800f755965",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:46.017692+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6642,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-800f755965/snapshot",
+      "bounding_box": {
+        "x": 0.0022,
+        "y": 0.0074,
+        "width": 0.9856,
+        "height": 0.9869
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9188238a44",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:41.976718+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7076,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9188238a44/snapshot",
+      "bounding_box": {
+        "x": 0.003,
+        "y": 0.0,
+        "width": 0.9906,
+        "height": 0.9806
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-15411dee2a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:37.967668+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7132,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-15411dee2a/snapshot",
+      "bounding_box": {
+        "x": 0.003,
+        "y": 0.0057,
+        "width": 0.6868,
+        "height": 0.9305
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6f65453fb5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:33.860132+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5812,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6f65453fb5/snapshot",
+      "bounding_box": {
+        "x": 0.001,
+        "y": 0.0027,
+        "width": 0.6993,
+        "height": 0.9495
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-4d5c2050b3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:29.784589+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7437,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4d5c2050b3/snapshot",
+      "bounding_box": {
+        "x": 0.0012,
+        "y": 0.0,
+        "width": 0.6818,
+        "height": 0.9529
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a072e64eb5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:25.730872+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7482,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a072e64eb5/snapshot",
+      "bounding_box": {
+        "x": 0.0016,
+        "y": 0.0011,
+        "width": 0.6813,
+        "height": 0.9498
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2a307e5d8c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:21.693476+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6534,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2a307e5d8c/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.003,
+        "width": 0.6932,
+        "height": 0.9537
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-47f512b11f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:17.664422+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7103,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-47f512b11f/snapshot",
+      "bounding_box": {
+        "x": 0.0006,
+        "y": 0.0032,
+        "width": 0.7076,
+        "height": 0.9583
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-cc42c4024a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:13.635302+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6524,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cc42c4024a/snapshot",
+      "bounding_box": {
+        "x": 0.0018,
+        "y": 0.0011,
+        "width": 0.7149,
+        "height": 0.9418
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-4969b980bd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:09.589534+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7253,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4969b980bd/snapshot",
+      "bounding_box": {
+        "x": 0.0015,
+        "y": 0.0079,
+        "width": 0.9949,
+        "height": 0.9426
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f17610a591",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:05.552360+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5836,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f17610a591/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.0138,
+        "width": 0.9261,
+        "height": 0.9693
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c99041ee9c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:41:01.517411+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8266,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c99041ee9c/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.0056,
+        "width": 0.7077,
+        "height": 0.8582
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e5b0ba9af7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:57.488430+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8282,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e5b0ba9af7/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0042,
+        "width": 0.7403,
+        "height": 0.9746
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8d900ba6a0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:53.475616+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7919,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8d900ba6a0/snapshot",
+      "bounding_box": {
+        "x": 0.0013,
+        "y": 0.0115,
+        "width": 0.7056,
+        "height": 0.8569
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8904937dc6",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:49.473426+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7637,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8904937dc6/snapshot",
+      "bounding_box": {
+        "x": 0.0013,
+        "y": 0.0052,
+        "width": 0.7151,
+        "height": 0.9279
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d803b3406b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:45.382931+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8023,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d803b3406b/snapshot",
+      "bounding_box": {
+        "x": 0.0013,
+        "y": 0.0066,
+        "width": 0.7184,
+        "height": 0.9246
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-cd1b5f3155",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:41.346496+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8387,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cd1b5f3155/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.0079,
+        "width": 0.7468,
+        "height": 0.9514
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-20a00d7da2",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:40.822516+00:00",
+      "animal_type": "Cell Phone",
+      "confidence_score": 0.412,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-20a00d7da2/snapshot",
+      "bounding_box": {
+        "x": 0.6353,
+        "y": 0.8912,
+        "width": 0.0848,
+        "height": 0.092
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7adbe8fd0b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:37.322843+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8287,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7adbe8fd0b/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.003,
+        "width": 0.7477,
+        "height": 0.9686
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-1b902a6985",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:33.268063+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7277,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-1b902a6985/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.0128,
+        "width": 0.7159,
+        "height": 0.9481
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2e0bd6ac16",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:29.775627+00:00",
+      "animal_type": "Cell Phone",
+      "confidence_score": 0.4179,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2e0bd6ac16/snapshot",
+      "bounding_box": {
+        "x": 0.4635,
+        "y": 0.1523,
+        "width": 0.1269,
+        "height": 0.2922
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-825545d8c7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:29.242043+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8601,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-825545d8c7/snapshot",
+      "bounding_box": {
+        "x": 0.0013,
+        "y": 0.0107,
+        "width": 0.6989,
+        "height": 0.9188
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d4069253df",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:25.221003+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7471,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d4069253df/snapshot",
+      "bounding_box": {
+        "x": 0.0011,
+        "y": 0.0115,
+        "width": 0.6918,
+        "height": 0.9258
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6977a23489",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:21.178157+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7672,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6977a23489/snapshot",
+      "bounding_box": {
+        "x": 0.002,
+        "y": 0.0052,
+        "width": 0.9821,
+        "height": 0.9856
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7ef8d5cd23",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:17.137823+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8435,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7ef8d5cd23/snapshot",
+      "bounding_box": {
+        "x": 0.0071,
+        "y": 0.0122,
+        "width": 0.9929,
+        "height": 0.9802
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b10a1858a3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:13.106199+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7135,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b10a1858a3/snapshot",
+      "bounding_box": {
+        "x": 0.0031,
+        "y": 0.0133,
+        "width": 0.9969,
+        "height": 0.9796
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2eba7b5d72",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:09.069336+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4718,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2eba7b5d72/snapshot",
+      "bounding_box": {
+        "x": 0.003,
+        "y": 0.0052,
+        "width": 0.9914,
+        "height": 0.8322
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a607835ef7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:05.051724+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6048,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a607835ef7/snapshot",
+      "bounding_box": {
+        "x": 0.0023,
+        "y": 0.0037,
+        "width": 0.9954,
+        "height": 0.8689
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f36264b3fb",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:40:00.994903+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7959,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f36264b3fb/snapshot",
+      "bounding_box": {
+        "x": 0.0017,
+        "y": 0.0,
+        "width": 0.9941,
+        "height": 0.9833
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-50f7168921",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:56.965863+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6253,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-50f7168921/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.9961,
+        "height": 0.9815
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b717b41c3e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:52.929778+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8449,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b717b41c3e/snapshot",
+      "bounding_box": {
+        "x": 0.0024,
+        "y": 0.0013,
+        "width": 0.9976,
+        "height": 0.9879
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-dde5029930",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:48.795520+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7456,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dde5029930/snapshot",
+      "bounding_box": {
+        "x": 0.001,
+        "y": 0.0035,
+        "width": 0.6621,
+        "height": 0.9088
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-db7d1b43fa",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:44.766422+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7694,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-db7d1b43fa/snapshot",
+      "bounding_box": {
+        "x": 0.0023,
+        "y": 0.0012,
+        "width": 0.6887,
+        "height": 0.9255
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-3f77949834",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:40.723961+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6762,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3f77949834/snapshot",
+      "bounding_box": {
+        "x": 0.0009,
+        "y": 0.0,
+        "width": 0.6781,
+        "height": 0.9326
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-12d048d22f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:36.661155+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7194,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-12d048d22f/snapshot",
+      "bounding_box": {
+        "x": 0.0003,
+        "y": 0.0145,
+        "width": 0.7718,
+        "height": 0.9539
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9ca369c325",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:32.621611+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8092,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9ca369c325/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.0027,
+        "width": 0.8269,
+        "height": 0.9833
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d4ffa26718",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:28.588495+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8041,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d4ffa26718/snapshot",
+      "bounding_box": {
+        "x": 0.0019,
+        "y": 0.0056,
+        "width": 0.7939,
+        "height": 0.9799
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9ecd8a7295",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:24.559108+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.754,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9ecd8a7295/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.0007,
+        "width": 0.7856,
+        "height": 0.9826
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e1c48aa8d4",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:20.546607+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7138,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e1c48aa8d4/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.0012,
+        "width": 0.7755,
+        "height": 0.9799
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-27aa306947",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:16.504459+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7461,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-27aa306947/snapshot",
+      "bounding_box": {
+        "x": 0.0014,
+        "y": 0.0035,
+        "width": 0.7922,
+        "height": 0.9793
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-1e1afb2a04",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:12.469933+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6583,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-1e1afb2a04/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0072,
+        "width": 0.788,
+        "height": 0.9758
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7aed8d8bfd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:08.442275+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8264,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7aed8d8bfd/snapshot",
+      "bounding_box": {
+        "x": 0.0015,
+        "y": 0.0052,
+        "width": 0.9949,
+        "height": 0.9814
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f20fe63054",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:04.382369+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8137,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f20fe63054/snapshot",
+      "bounding_box": {
+        "x": 0.001,
+        "y": 0.0048,
+        "width": 0.9962,
+        "height": 0.9796
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-27d5ebb36e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:39:00.338202+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7135,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-27d5ebb36e/snapshot",
+      "bounding_box": {
+        "x": 0.0006,
+        "y": 0.0,
+        "width": 0.9937,
+        "height": 0.9846
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0be0b65947",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:56.309172+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8507,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0be0b65947/snapshot",
+      "bounding_box": {
+        "x": 0.0212,
+        "y": 0.0144,
+        "width": 0.9776,
+        "height": 0.9818
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d9b787694a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:52.264518+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4106,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d9b787694a/snapshot",
+      "bounding_box": {
+        "x": 0.0161,
+        "y": 0.0101,
+        "width": 0.98,
+        "height": 0.9685
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-533ff6d3fd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:48.227639+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7883,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-533ff6d3fd/snapshot",
+      "bounding_box": {
+        "x": 0.0021,
+        "y": 0.0034,
+        "width": 0.99,
+        "height": 0.9877
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0d617efd18",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:44.192675+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.772,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0d617efd18/snapshot",
+      "bounding_box": {
+        "x": 0.0025,
+        "y": 0.0096,
+        "width": 0.9892,
+        "height": 0.9827
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-303e2e63e0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:40.160360+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5543,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-303e2e63e0/snapshot",
+      "bounding_box": {
+        "x": 0.0022,
+        "y": 0.007,
+        "width": 0.9905,
+        "height": 0.7906
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d9b22f624e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:36.157763+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.469,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d9b22f624e/snapshot",
+      "bounding_box": {
+        "x": 0.0149,
+        "y": 0.0059,
+        "width": 0.9706,
+        "height": 0.8572
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-657e433192",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:32.131136+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8331,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-657e433192/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0018,
+        "width": 0.8381,
+        "height": 0.9836
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ff2fece548",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:28.053437+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8522,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ff2fece548/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.8354,
+        "height": 0.9849
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e1e52910f8",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:24.033046+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7947,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e1e52910f8/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.8587,
+        "height": 0.9914
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ecbd78d410",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:19.904635+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8446,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ecbd78d410/snapshot",
+      "bounding_box": {
+        "x": 0.0026,
+        "y": 0.0071,
+        "width": 0.7971,
+        "height": 0.9799
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c2a9c69f9e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:15.849522+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6363,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c2a9c69f9e/snapshot",
+      "bounding_box": {
+        "x": 0.0009,
+        "y": 0.0055,
+        "width": 0.6179,
+        "height": 0.93
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-aabfb021da",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:11.808871+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5987,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-aabfb021da/snapshot",
+      "bounding_box": {
+        "x": 0.0032,
+        "y": 0.0103,
+        "width": 0.7024,
+        "height": 0.8427
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-634c99aab2",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:07.784266+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6936,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-634c99aab2/snapshot",
+      "bounding_box": {
+        "x": 0.0019,
+        "y": 0.009,
+        "width": 0.743,
+        "height": 0.9536
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-3c56f9573b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:38:03.671657+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7051,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3c56f9573b/snapshot",
+      "bounding_box": {
+        "x": 0.0014,
+        "y": 0.0075,
+        "width": 0.744,
+        "height": 0.9592
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-58fe644d36",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:59.606061+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6615,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-58fe644d36/snapshot",
+      "bounding_box": {
+        "x": 0.0012,
+        "y": 0.0035,
+        "width": 0.6594,
+        "height": 0.7974
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8582023141",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:55.574697+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6531,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8582023141/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.0,
+        "width": 0.9993,
+        "height": 0.9768
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b0a023baee",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:51.533741+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7968,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b0a023baee/snapshot",
+      "bounding_box": {
+        "x": 0.0028,
+        "y": 0.0096,
+        "width": 0.9972,
+        "height": 0.9859
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b3c2cf60dd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:47.503698+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6895,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b3c2cf60dd/snapshot",
+      "bounding_box": {
+        "x": 0.001,
+        "y": 0.0008,
+        "width": 0.6104,
+        "height": 0.7459
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-cd454e24ef",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:43.376453+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4046,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cd454e24ef/snapshot",
+      "bounding_box": {
+        "x": 0.0042,
+        "y": 0.0,
+        "width": 0.9923,
+        "height": 0.9697
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-4d2d6f0fb1",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:39.105140+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4911,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4d2d6f0fb1/snapshot",
+      "bounding_box": {
+        "x": 0.002,
+        "y": 0.0096,
+        "width": 0.9873,
+        "height": 0.7801
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-4eef014d97",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:35.075994+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7912,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4eef014d97/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.0029,
+        "width": 0.6481,
+        "height": 0.9478
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0bc32412c5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:30.937584+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.9331,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0bc32412c5/snapshot",
+      "bounding_box": {
+        "x": 0.0027,
+        "y": 0.0012,
+        "width": 0.9959,
+        "height": 0.996
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-359bf8ee28",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:26.900907+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8277,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-359bf8ee28/snapshot",
+      "bounding_box": {
+        "x": 0.004,
+        "y": 0.0004,
+        "width": 0.9896,
+        "height": 0.9936
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-142b3edbbf",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:22.871607+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.4176,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-142b3edbbf/snapshot",
+      "bounding_box": {
+        "x": 0.0283,
+        "y": 0.0031,
+        "width": 0.5773,
+        "height": 0.7143
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a4b93b90a2",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:18.829252+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.648,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a4b93b90a2/snapshot",
+      "bounding_box": {
+        "x": 0.0069,
+        "y": 0.0083,
+        "width": 0.988,
+        "height": 0.8239
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-3658f97ca7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:14.759878+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5182,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3658f97ca7/snapshot",
+      "bounding_box": {
+        "x": 0.009,
+        "y": 0.0069,
+        "width": 0.9875,
+        "height": 0.815
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f3c209b9ce",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:10.727121+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8348,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f3c209b9ce/snapshot",
+      "bounding_box": {
+        "x": 0.0069,
+        "y": 0.0101,
+        "width": 0.9931,
+        "height": 0.9859
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b98a94b318",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:06.688293+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6078,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b98a94b318/snapshot",
+      "bounding_box": {
+        "x": 0.002,
+        "y": 0.0155,
+        "width": 0.998,
+        "height": 0.9845
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-52ad5bbba9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:37:02.664339+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5747,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-52ad5bbba9/snapshot",
+      "bounding_box": {
+        "x": 0.001,
+        "y": 0.0089,
+        "width": 0.9826,
+        "height": 0.7826
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d96163b738",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:58.635149+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5045,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d96163b738/snapshot",
+      "bounding_box": {
+        "x": 0.0188,
+        "y": 0.0146,
+        "width": 0.9786,
+        "height": 0.9307
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9b9e743db4",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:54.591889+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.478,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9b9e743db4/snapshot",
+      "bounding_box": {
+        "x": 0.0058,
+        "y": 0.0095,
+        "width": 0.9904,
+        "height": 0.7649
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-dd80b113a1",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:50.565591+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.517,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dd80b113a1/snapshot",
+      "bounding_box": {
+        "x": 0.0088,
+        "y": 0.0019,
+        "width": 0.6093,
+        "height": 0.7243
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f4c19a84d7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:46.463983+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.781,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f4c19a84d7/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0064,
+        "width": 0.9921,
+        "height": 0.9511
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a0b96d4175",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:42.399293+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5902,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a0b96d4175/snapshot",
+      "bounding_box": {
+        "x": 0.0011,
+        "y": 0.0149,
+        "width": 0.8642,
+        "height": 0.9482
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-dbef31b841",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:38.336618+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7779,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dbef31b841/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.0065,
+        "width": 0.6701,
+        "height": 0.958
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-5a5450730d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:34.319843+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6128,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5a5450730d/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.0148,
+        "width": 0.6336,
+        "height": 0.9357
+      },
+      "status": "acknowledged",
+      "severity": "warning",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-03327d469f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:30.295043+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6984,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-03327d469f/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.0019,
+        "width": 0.5947,
+        "height": 0.9437
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-18be127810",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:26.258558+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8332,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-18be127810/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0109,
+        "width": 0.6414,
+        "height": 0.943
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-187dc4e28a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:22.222673+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8456,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-187dc4e28a/snapshot",
+      "bounding_box": {
+        "x": 0.0003,
+        "y": 0.0031,
+        "width": 0.6364,
+        "height": 0.943
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e93fdee870",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:18.221347+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7301,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e93fdee870/snapshot",
+      "bounding_box": {
+        "x": 0.0021,
+        "y": 0.0071,
+        "width": 0.9912,
+        "height": 0.9907
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2356d96a5c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:36:11.826193+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.5759,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2356d96a5c/snapshot",
+      "bounding_box": {
+        "x": 0.0017,
+        "y": 0.0069,
+        "width": 0.9749,
+        "height": 0.8089
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ee36750d96",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:42.049572+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.8394,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ee36750d96/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.8692,
+        "height": 0.9238
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b8f5a8f2b4",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:37.843105+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7565,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b8f5a8f2b4/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0058,
+        "width": 0.9008,
+        "height": 0.9798
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-cfac22430a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:33.778207+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7997,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cfac22430a/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0021,
+        "width": 0.8739,
+        "height": 0.9846
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-5e83884e22",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:29.752857+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.701,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5e83884e22/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0091,
+        "width": 0.9256,
+        "height": 0.9753
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-23bdbff464",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:25.849772+00:00",
+      "animal_type": "Laptop",
+      "confidence_score": 0.4995,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-23bdbff464/snapshot",
+      "bounding_box": {
+        "x": 0.4847,
+        "y": 0.2769,
+        "width": 0.1998,
+        "height": 0.5015
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-50d2f55e8e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:25.718175+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7059,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-50d2f55e8e/snapshot",
+      "bounding_box": {
+        "x": 0.0014,
+        "y": 0.0041,
+        "width": 0.9981,
+        "height": 0.989
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ee392caa79",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:21.671011+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7242,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ee392caa79/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.6636,
+        "height": 0.8349
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-195e9cb2cd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:17.636879+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.615,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-195e9cb2cd/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.0144,
+        "width": 0.6527,
+        "height": 0.8043
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-00d5994406",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:13.623334+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.6591,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-00d5994406/snapshot",
+      "bounding_box": {
+        "x": 0.0021,
+        "y": 0.0081,
+        "width": 0.7402,
+        "height": 0.975
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-4b30297585",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:09.266766+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.677,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4b30297585/snapshot",
+      "bounding_box": {
+        "x": 0.0013,
+        "y": 0.0,
+        "width": 0.9187,
+        "height": 0.9872
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-5fbfccae99",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T15:35:02.445808+00:00",
+      "animal_type": "Person",
+      "confidence_score": 0.7442,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5fbfccae99/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.0132,
+        "width": 0.8736,
+        "height": 0.9739
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
     {
       "id": "alert-9d25b95d",
       "camera_id": "cam-1",

@@ -49,12 +49,17 @@ class AlertSeverity(str, Enum):
 
 
 class AnimalType(str, Enum):
+    # Original wildlife classes
     nilgai = "Nilgai"
     fawn = "Fawn"
     wild_boar = "Wild Boar"
     rabbit = "Rabbit"
     fox = "Fox"
     unknown = "Unknown"
+    # Target alert classes
+    mobile_phone = "Mobile Phone"
+    mouse = "Mouse"
+    remote = "Duster / Remote"
 
 
 # ─────────────────────────────────────────────

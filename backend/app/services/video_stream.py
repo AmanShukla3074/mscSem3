@@ -126,6 +126,10 @@ class CameraManager:
         self._cap_lock = threading.Lock()
         self._current_cap: Optional[cv2.VideoCapture] = None
 
+        # Per-class detection cooldown: {class_name: last_alert_time}
+        # Prevents alert spam — max 1 alert per class every DETECTION_COOLDOWN_S.
+        self._detection_cooldown: dict[str, float] = {}
+
         self._thread = threading.Thread(
             target=self._grab_loop,
             name=f"cam-grab-{camera_id}",
@@ -324,6 +328,8 @@ class CameraManager:
                         print(f"[cam {self.camera_id}] Stream recovered ✓")
                     with self._frame_lock:
                         self._latest_frame = frame
+                    # ── Run YOLO detection on every successfully read frame ──
+                    self._run_detection(frame)
                 else:
                     # Read failed — release and reconnect immediately
                     print(f"[cam {self.camera_id}] cap.read() failed — reconnecting")
@@ -355,6 +361,55 @@ class CameraManager:
                     time.sleep(0.1)
 
         print(f"[cam {self.camera_id}] Worker stopped.")
+
+    # Seconds between alerts for the same detected class (anti-spam)
+    DETECTION_COOLDOWN_S: float = 4.0
+
+    def _run_detection(self, frame: np.ndarray) -> None:
+        """
+        Run YOLO inference on `frame` (BGR ndarray) in the grab-loop thread.
+        Respects DETECTION_COOLDOWN_S per detected class to prevent alert spam.
+        Calls broadcast_detection() from alerts router on a qualifying detection.
+        """
+        try:
+            from app.services.detector import detector
+            from app.routers.alerts import broadcast_detection
+        except ImportError as exc:
+            print(f"[cam {self.camera_id}] Detection import error: {exc}")
+            return
+
+        detections = detector.run(frame)
+        if not detections:
+            return
+
+        now = time.time()
+        cam = None
+        try:
+            from app.services.store import store
+            cam = store.get_camera(self.camera_id)
+        except Exception:
+            pass
+
+        crop_density = cam.get("crop_density", "Medium") if cam else "Medium"
+        camera_name = cam.get("name", self.camera_id) if cam else self.camera_id
+
+        for det in detections:
+            last = self._detection_cooldown.get(det.class_name, 0.0)
+            if now - last < self.DETECTION_COOLDOWN_S:
+                continue   # still in cooldown for this class
+            self._detection_cooldown[det.class_name] = now
+            try:
+                broadcast_detection(
+                    camera_id=self.camera_id,
+                    camera_name=camera_name,
+                    crop_density=crop_density,
+                    class_name=det.class_name,
+                    confidence=det.confidence,
+                    bbox_norm=det.bbox_norm,
+                    frame_bgr=frame,
+                )
+            except Exception as exc:
+                print(f"[cam {self.camera_id}] broadcast_detection error: {exc}")
 
     def _open_capture(self) -> Optional[cv2.VideoCapture]:
         """

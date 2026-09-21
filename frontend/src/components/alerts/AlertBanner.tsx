@@ -20,8 +20,8 @@ export function AlertBanner({ alert, onViewAlert }: AlertBannerProps) {
   useEffect(() => {
     const loop = Animated.loop(
       Animated.sequence([
-        Animated.timing(flashAnim, { toValue: 0.3, duration: 400, useNativeDriver: Platform.OS !== 'web' }),
-        Animated.timing(flashAnim, { toValue: 1, duration: 400, useNativeDriver: Platform.OS !== 'web' }),
+        Animated.timing(flashAnim, { toValue: 0.35, duration: 2000, useNativeDriver: Platform.OS !== 'web' }),
+        Animated.timing(flashAnim, { toValue: 1, duration: 2000, useNativeDriver: Platform.OS !== 'web' }),
       ]),
     );
     loop.start();

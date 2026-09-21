@@ -22,7 +22,7 @@ export function AppHeader({ title, subtitle, showSimulateButton = false }: AppHe
     <View style={styles.header}>
       <View style={styles.branding}>
         <View style={styles.logoMark}>
-          <Text style={styles.logoText}>IR</Text>
+          <Text style={styles.logoText}>FR</Text>
         </View>
         <View>
           <Text style={styles.title}>{title}</Text>
