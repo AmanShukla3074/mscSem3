@@ -11,7 +11,7 @@ import type { AppSettings } from '@/types';
 const SETTINGS_KEY = '@ir_app_settings';
 
 export const DEFAULT_SETTINGS: AppSettings = {
-  apiBaseUrl: 'http://10.0.2.2:8000',
+  apiBaseUrl: 'http://10.24.158.124:8000',
   confidenceThreshold: 0.50,
   simulateStreamIntervalMs: 5000,
   simulateStreamEnabled: false,

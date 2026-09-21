@@ -5,7 +5,7 @@
  */
 
 import React, { useEffect, useRef } from 'react';
-import { Animated, StyleSheet, Text, View, type ViewStyle } from 'react-native';
+import { Animated, Platform, StyleSheet, Text, View, type ViewStyle } from 'react-native';
 import { IRColors, FontSizes, FontWeights } from '@/constants/theme';
 
 interface IRFeedPlaceholderProps {
@@ -34,8 +34,8 @@ export function IRFeedPlaceholder({
     // Slow shimmer to simulate IR noise / heat haze
     const shimmerLoop = Animated.loop(
       Animated.sequence([
-        Animated.timing(shimmer, { toValue: 1, duration: 3000, useNativeDriver: true }),
-        Animated.timing(shimmer, { toValue: 0, duration: 3000, useNativeDriver: true }),
+        Animated.timing(shimmer, { toValue: 1, duration: 3000, useNativeDriver: Platform.OS !== 'web' }),
+        Animated.timing(shimmer, { toValue: 0, duration: 3000, useNativeDriver: Platform.OS !== 'web' }),
       ]),
     );
     shimmerLoop.start();
@@ -48,8 +48,8 @@ export function IRFeedPlaceholder({
     // Pulse the bounding box indicator
     const pulseLoop = Animated.loop(
       Animated.sequence([
-        Animated.timing(pulse, { toValue: 0.4, duration: 500, useNativeDriver: true }),
-        Animated.timing(pulse, { toValue: 1, duration: 500, useNativeDriver: true }),
+        Animated.timing(pulse, { toValue: 0.4, duration: 500, useNativeDriver: Platform.OS !== 'web' }),
+        Animated.timing(pulse, { toValue: 1, duration: 500, useNativeDriver: Platform.OS !== 'web' }),
       ]),
     );
     pulseLoop.start();
@@ -112,8 +112,8 @@ export function IRFeedPlaceholder({
         </View>
       )}
 
-      {/* Scanline effect */}
-      {isOnline && <View style={styles.scanline} pointerEvents="none" />}
+      {/* Scanline effect — pointerEvents in style to avoid deprecated JSX prop warning */}
+      {isOnline && <View style={[styles.scanline, { pointerEvents: 'none' } as any]} />}
     </View>
   );
 }

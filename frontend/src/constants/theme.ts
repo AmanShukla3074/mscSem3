@@ -126,20 +126,26 @@ export const Radii = {
 // ─────────────────────────────────────────────
 
 export const Shadows = {
-  card: {
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.35,
-    shadowRadius: 6,
-    elevation: 4,
-  },
-  modal: {
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.5,
-    shadowRadius: 16,
-    elevation: 12,
-  },
+  card: Platform.select({
+    web: { boxShadow: '0px 2px 6px rgba(0,0,0,0.35)' } as any,
+    default: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.35,
+      shadowRadius: 6,
+      elevation: 4,
+    },
+  })!,
+  modal: Platform.select({
+    web: { boxShadow: '0px 8px 16px rgba(0,0,0,0.5)' } as any,
+    default: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 8 },
+      shadowOpacity: 0.5,
+      shadowRadius: 16,
+      elevation: 12,
+    },
+  })!,
 } as const;
 
 // ─────────────────────────────────────────────

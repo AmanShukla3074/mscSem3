@@ -1,0 +1,285 @@
+{
+  "cameras": [
+    {
+      "id": "cam-1",
+      "name": "CP-E25A Forward Harvester",
+      "type": "WiFi",
+      "stream_url": "rtsp://admin:amanhehe@10.24.158.124:5543/live/channel1",
+      "ip_address": "10.24.158.124",
+      "port": 5543,
+      "field_location": "Plot A - Front Header",
+      "crop_density": "Medium",
+      "status": "offline",
+      "latency_ms": 0,
+      "last_seen_at": "2026-09-21T14:42:59.846268+00:00"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-9d25b95d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T06:22:45.666649+00:00",
+      "animal_type": "Nilgai",
+      "confidence_score": 0.904,
+      "crop_density": "Light",
+      "snapshot_uri": "/api/alerts/alert-9d25b95d/snapshot",
+      "bounding_box": {
+        "x": 0.114,
+        "y": 0.436,
+        "width": 0.251,
+        "height": 0.266
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "alert-53e4af71",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-20T12:15:53.771491+00:00",
+      "animal_type": "Wild Boar",
+      "confidence_score": 0.775,
+      "crop_density": "Light",
+      "snapshot_uri": "/api/alerts/alert-53e4af71/snapshot",
+      "bounding_box": {
+        "x": 0.563,
+        "y": 0.32,
+        "width": 0.22,
+        "height": 0.224
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "alert-001",
+      "camera_id": "cam-001",
+      "camera_name": "Front Left IR",
+      "timestamp": "2026-09-20T12:11:16.045636+00:00",
+      "animal_type": "Nilgai",
+      "confidence_score": 0.942,
+      "crop_density": "Heavy",
+      "snapshot_uri": "mock://snapshot/alert-001",
+      "bounding_box": {
+        "x": 0.35,
+        "y": 0.2,
+        "width": 0.28,
+        "height": 0.45
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "alert-002",
+      "camera_id": "cam-002",
+      "camera_name": "Front Right IR",
+      "timestamp": "2026-09-20T11:57:16.045648+00:00",
+      "animal_type": "Fawn",
+      "confidence_score": 0.874,
+      "crop_density": "Heavy",
+      "snapshot_uri": "mock://snapshot/alert-002",
+      "bounding_box": {
+        "x": 0.55,
+        "y": 0.3,
+        "width": 0.18,
+        "height": 0.32
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator slowed harvester. Fawn moved to field edge."
+    },
+    {
+      "id": "alert-003",
+      "camera_id": "cam-003",
+      "camera_name": "Rear Centre IR",
+      "timestamp": "2026-09-20T11:30:16.045653+00:00",
+      "animal_type": "Wild Boar",
+      "confidence_score": 0.789,
+      "crop_density": "Medium",
+      "snapshot_uri": "mock://snapshot/alert-003",
+      "bounding_box": {
+        "x": 0.2,
+        "y": 0.4,
+        "width": 0.35,
+        "height": 0.38
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Harvester stopped. Animal cleared."
+    },
+    {
+      "id": "alert-004",
+      "camera_id": "cam-001",
+      "camera_name": "Front Left IR",
+      "timestamp": "2026-09-20T10:15:16.045657+00:00",
+      "animal_type": "Rabbit",
+      "confidence_score": 0.651,
+      "crop_density": "Medium",
+      "snapshot_uri": "mock://snapshot/alert-004",
+      "bounding_box": {
+        "x": 0.6,
+        "y": 0.5,
+        "width": 0.12,
+        "height": 0.15
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "False alarm confirmed after second pass."
+    },
+    {
+      "id": "alert-005",
+      "camera_id": "cam-003",
+      "camera_name": "Rear Centre IR",
+      "timestamp": "2026-09-20T09:15:16.045661+00:00",
+      "animal_type": "Nilgai",
+      "confidence_score": 0.918,
+      "crop_density": "Heavy",
+      "snapshot_uri": "mock://snapshot/alert-005",
+      "bounding_box": {
+        "x": 0.28,
+        "y": 0.15,
+        "width": 0.32,
+        "height": 0.5
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Emergency stop triggered. Animal evaded."
+    },
+    {
+      "id": "alert-006",
+      "camera_id": "cam-002",
+      "camera_name": "Front Right IR",
+      "timestamp": "2026-09-20T07:15:16.045665+00:00",
+      "animal_type": "Fox",
+      "confidence_score": 0.713,
+      "crop_density": "Light",
+      "snapshot_uri": "mock://snapshot/alert-006",
+      "bounding_box": {
+        "x": 0.45,
+        "y": 0.35,
+        "width": 0.2,
+        "height": 0.25
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 fox moved before harvester reached."
+    },
+    {
+      "id": "alert-007",
+      "camera_id": "cam-001",
+      "camera_name": "Front Left IR",
+      "timestamp": "2026-09-20T04:15:16.045668+00:00",
+      "animal_type": "Fawn",
+      "confidence_score": 0.962,
+      "crop_density": "Heavy",
+      "snapshot_uri": "mock://snapshot/alert-007",
+      "bounding_box": {
+        "x": 0.38,
+        "y": 0.22,
+        "width": 0.22,
+        "height": 0.38
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Emergency stop. Fawn carried to field edge by operator."
+    },
+    {
+      "id": "alert-008",
+      "camera_id": "cam-003",
+      "camera_name": "Rear Centre IR",
+      "timestamp": "2026-09-20T00:15:16.045674+00:00",
+      "animal_type": "Unknown",
+      "confidence_score": 0.502,
+      "crop_density": "Medium",
+      "snapshot_uri": "mock://snapshot/alert-008",
+      "bounding_box": {
+        "x": 0.5,
+        "y": 0.4,
+        "width": 0.15,
+        "height": 0.2
+      },
+      "status": "resolved",
+      "severity": "info",
+      "resolution_note": "Unidentified. Likely debris. Dismissed."
+    },
+    {
+      "id": "alert-009",
+      "camera_id": "cam-002",
+      "camera_name": "Front Right IR",
+      "timestamp": "2026-09-19T20:15:16.045677+00:00",
+      "animal_type": "Wild Boar",
+      "confidence_score": 0.881,
+      "crop_density": "Heavy",
+      "snapshot_uri": "mock://snapshot/alert-009",
+      "bounding_box": {
+        "x": 0.22,
+        "y": 0.28,
+        "width": 0.4,
+        "height": 0.42
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Harvester detoured. Boar cleared."
+    },
+    {
+      "id": "alert-010",
+      "camera_id": "cam-001",
+      "camera_name": "Front Left IR",
+      "timestamp": "2026-09-19T16:15:16.045681+00:00",
+      "animal_type": "Nilgai",
+      "confidence_score": 0.835,
+      "crop_density": "Medium",
+      "snapshot_uri": "mock://snapshot/alert-010",
+      "bounding_box": {
+        "x": 0.3,
+        "y": 0.18,
+        "width": 0.3,
+        "height": 0.48
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Resolved \u2014 slow approach, animal left field."
+    },
+    {
+      "id": "alert-011",
+      "camera_id": "cam-003",
+      "camera_name": "Rear Centre IR",
+      "timestamp": "2026-09-19T12:15:16.045687+00:00",
+      "animal_type": "Rabbit",
+      "confidence_score": 0.612,
+      "crop_density": "Light",
+      "snapshot_uri": "mock://snapshot/alert-011",
+      "bounding_box": {
+        "x": 0.65,
+        "y": 0.55,
+        "width": 0.1,
+        "height": 0.12
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed as false alarm."
+    },
+    {
+      "id": "alert-012",
+      "camera_id": "cam-002",
+      "camera_name": "Front Right IR",
+      "timestamp": "2026-09-19T08:15:16.045691+00:00",
+      "animal_type": "Fawn",
+      "confidence_score": 0.945,
+      "crop_density": "Heavy",
+      "snapshot_uri": "mock://snapshot/alert-012",
+      "bounding_box": {
+        "x": 0.4,
+        "y": 0.25,
+        "width": 0.25,
+        "height": 0.4
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Emergency stop. Fawn relocated."
+    }
+  ]
+}

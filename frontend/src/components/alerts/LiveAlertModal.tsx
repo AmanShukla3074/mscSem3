@@ -2,18 +2,21 @@
  * @file components/alerts/LiveAlertModal.tsx
  * High-visibility full-screen operator alert modal.
  * Shown immediately when a new wildlife detection is received.
+ * Shows the real annotated JPEG snapshot from the backend when available.
  */
 
 import React, { useEffect, useRef } from 'react';
 import {
   Animated,
   Modal,
+  Platform,
   SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
   View,
 } from 'react-native';
+import { Image } from 'expo-image';
 import { AlertTriangle, Camera, CheckCircle, XCircle } from 'lucide-react-native';
 import { IRColors, FontSizes, FontWeights, Radii, Spacing, Shadows } from '@/constants/theme';
 import { Button } from '@/components/ui/Button';
@@ -22,6 +25,10 @@ import { ConfidenceMeter } from '@/components/ui/ConfidenceMeter';
 import { IRFeedPlaceholder } from '@/components/ui/IRFeedPlaceholder';
 import { useAlerts } from '@/contexts/AlertContext';
 import type { Alert } from '@/types';
+
+/** True when the snapshot URI is a real backend HTTP URL */
+const isRealSnapshot = (uri: string) =>
+  uri.startsWith('http://') || uri.startsWith('https://');
 
 interface LiveAlertModalProps {
   alert: Alert;
@@ -40,7 +47,7 @@ export function LiveAlertModal({ alert }: LiveAlertModalProps) {
     // Slide up entry
     Animated.spring(slideAnim, {
       toValue: 0,
-      useNativeDriver: true,
+      useNativeDriver: Platform.OS !== 'web',
       tension: 80,
       friction: 10,
     }).start();
@@ -97,18 +104,29 @@ export function LiveAlertModal({ alert }: LiveAlertModalProps) {
             </View>
 
             <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
-              {/* IR Snapshot with bbox */}
+              {/* IR Snapshot — real annotated JPEG from backend, or placeholder */}
               <View style={styles.snapshotSection}>
-                <IRFeedPlaceholder
-                  cameraName={alert.cameraName}
-                  isOnline
-                  showDetection
-                  boundingBox={alert.boundingBox}
-                  style={styles.snapshot}
-                />
+                {isRealSnapshot(alert.snapshotUri) ? (
+                  <Image
+                    source={{ uri: alert.snapshotUri }}
+                    style={[styles.snapshot, styles.snapshotImage]}
+                    contentFit="cover"
+                    cachePolicy="no-cache"
+                  />
+                ) : (
+                  <IRFeedPlaceholder
+                    cameraName={alert.cameraName}
+                    isOnline
+                    showDetection
+                    boundingBox={alert.boundingBox}
+                    style={styles.snapshot}
+                  />
+                )}
                 <View style={styles.snapshotLabel}>
                   <Camera size={12} color={IRColors.textMuted} />
-                  <Text style={styles.snapshotLabelText}>{alert.cameraName} · IR thermal</Text>
+                  <Text style={styles.snapshotLabelText}>
+                    {alert.cameraName} · {isRealSnapshot(alert.snapshotUri) ? 'Annotated snapshot' : 'IR thermal'}
+                  </Text>
                 </View>
               </View>
 
@@ -238,6 +256,11 @@ const styles = StyleSheet.create({
     borderRadius: Radii.lg,
     borderWidth: 2,
     borderColor: IRColors.alertRed,
+  },
+  snapshotImage: {
+    width: '100%',
+    aspectRatio: 16 / 9,
+    borderRadius: Radii.lg,
   },
   snapshotLabel: {
     flexDirection: 'row',

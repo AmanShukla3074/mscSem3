@@ -21,7 +21,7 @@ import { IRColors, FontSizes, FontWeights, Radii, Spacing, Shadows } from '@/con
 import { Button } from '@/components/ui/Button';
 import { useCameras } from '@/contexts/CameraContext';
 import type { Camera, ConnectionType, CropDensity } from '@/types';
-import type { CameraPayload } from '@/services/mockCameraService';
+import type { CameraPayload } from '@/services/apiClient';
 
 interface CameraFormModalProps {
   camera?: Camera; // If provided, edit mode
@@ -102,7 +102,13 @@ export function CameraFormModal({ camera, onClose }: CameraFormModalProps) {
     setPingResult(null);
     try {
       const result = await testConnection(camera.id);
+      // Treat an explicit offline response as a "failed" ping
       setPingResult(result);
+    } catch (err: unknown) {
+      // Network error, timeout, or AbortError — show "Camera Offline" badge
+      // instead of propagating an unhandled rejection to the error boundary.
+      console.warn('[handlePing] ping failed:', err instanceof Error ? err.message : err);
+      setPingResult({ success: false, latencyMs: 0 });
     } finally {
       setPinging(false);
     }
@@ -217,7 +223,7 @@ export function CameraFormModal({ camera, onClose }: CameraFormModalProps) {
                     <Text style={{ color: pingResult.success ? IRColors.statusGreen : IRColors.alertRed, fontWeight: FontWeights.semibold, fontSize: FontSizes.sm }}>
                       {pingResult.success
                         ? `✓ Connected — ${pingResult.latencyMs}ms`
-                        : '✗ Connection failed — camera unreachable'}
+                        : '✗ Camera Offline — stream unavailable'}
                     </Text>
                   </View>
                 )}

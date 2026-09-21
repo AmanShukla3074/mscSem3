@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect, useRef } from 'react';
-import { Animated, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Animated, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { AlertTriangle } from 'lucide-react-native';
 import { IRColors, FontSizes, FontWeights, Spacing } from '@/constants/theme';
 import type { Alert } from '@/types';
@@ -20,8 +20,8 @@ export function AlertBanner({ alert, onViewAlert }: AlertBannerProps) {
   useEffect(() => {
     const loop = Animated.loop(
       Animated.sequence([
-        Animated.timing(flashAnim, { toValue: 0.3, duration: 400, useNativeDriver: true }),
-        Animated.timing(flashAnim, { toValue: 1, duration: 400, useNativeDriver: true }),
+        Animated.timing(flashAnim, { toValue: 0.3, duration: 400, useNativeDriver: Platform.OS !== 'web' }),
+        Animated.timing(flashAnim, { toValue: 1, duration: 400, useNativeDriver: Platform.OS !== 'web' }),
       ]),
     );
     loop.start();

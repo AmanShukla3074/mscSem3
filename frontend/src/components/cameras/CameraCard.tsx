@@ -9,6 +9,7 @@ import { Wifi, Network, Zap } from 'lucide-react-native';
 import { IRColors, FontSizes, FontWeights, Radii, Spacing, Shadows } from '@/constants/theme';
 import { Badge } from '@/components/ui/Badge';
 import { IRFeedPlaceholder } from '@/components/ui/IRFeedPlaceholder';
+import { LiveFeedImage } from '@/components/cameras/LiveFeedImage';
 import type { Camera } from '@/types';
 
 interface CameraCardProps {
@@ -55,13 +56,23 @@ export function CameraCard({ camera, hasActiveAlert }: CameraCardProps) {
         hasActiveAlert && styles.alertBorder,
       ]}
     >
-      {/* Feed */}
-      <IRFeedPlaceholder
-        cameraName={camera.name}
-        isOnline={camera.status === 'online'}
-        showDetection={hasActiveAlert}
-        style={styles.feed}
-      />
+      {/* Feed — live snapshot polling when online, placeholder when offline */}
+      {camera.status === 'online' ? (
+        <LiveFeedImage
+          cameraId={camera.id}
+          cameraName={camera.name}
+          isOnline
+          showDetection={hasActiveAlert}
+          style={styles.feed}
+        />
+      ) : (
+        <IRFeedPlaceholder
+          cameraName={camera.name}
+          isOnline={false}
+          showDetection={hasActiveAlert}
+          style={styles.feed}
+        />
+      )}
 
       {/* Footer info */}
       <View style={styles.footer}>

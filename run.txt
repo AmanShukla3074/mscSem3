@@ -1,17 +1,29 @@
-mkdir backend
+========== BACKEND ==========
+
 cd backend
-python -m venv .venv
-
-.venv\Scripts\activate
-pip install fastapi uvicorn
-
 .\.venv\Scripts\Activate.ps1
 
-pip freeze > requirements.txt
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+API Docs:  http://localhost:8000/docs
+Health:    http://localhost:8000/api/system/health
+Cameras:   http://localhost:8000/api/cameras
 
 
-
-front end
+========== FRONTEND ==========
 
 cd frontend
-npx expo start 
+npx expo start
+
+Then press:
+  a  → open Android emulator
+  w  → open in browser
+  Scan QR code with Expo Go app (real device, same WiFi as backend)
+
+
+========== NOTES ==========
+
+Backend LAN IP (for real device):  http://10.24.158.124:8000
+RTSP camera stream:                 rtsp://admin:amanhehe@10.24.158.124:5543/live/channel1
+
+To change the backend URL from the app: Settings tab → Backend API → API Base URL

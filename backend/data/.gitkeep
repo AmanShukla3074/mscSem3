@@ -1,0 +1,3 @@
+# backend/data/.gitkeep
+# This directory stores store.json for persistent state across server restarts.
+# store.json is auto-generated; do not commit it to version control.

@@ -1,6 +1,6 @@
 /**
  * @file contexts/CameraContext.tsx
- * Camera CRUD state and operations.
+ * Camera CRUD state and operations — connected to real FastAPI backend.
  * Provides: cameras[], addCamera(), updateCamera(), deleteCamera(), testConnection(), refresh()
  */
 
@@ -12,7 +12,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import { mockCameraService, type CameraPayload } from '@/services/mockCameraService';
+import { cameraApiService, type CameraPayload } from '@/services/apiClient';
 import type { Camera } from '@/types';
 
 // ─────────────────────────────────────────────
@@ -36,8 +36,8 @@ const CameraContext = createContext<CameraContextValue | null>(null);
 // Provider
 // ─────────────────────────────────────────────
 
-/** Refresh camera statuses every 5 seconds in mock mode */
-const STATUS_POLL_INTERVAL_MS = 5000;
+/** Poll camera statuses from the backend every 8 seconds */
+const STATUS_POLL_INTERVAL_MS = 8000;
 
 export function CameraProvider({ children }: { children: React.ReactNode }) {
   const [cameras, setCameras] = useState<Camera[]>([]);
@@ -47,10 +47,13 @@ export function CameraProvider({ children }: { children: React.ReactNode }) {
 
   const load = useCallback(async () => {
     try {
-      const data = await mockCameraService.getAll();
+      const data = await cameraApiService.getAll();
       setCameras(data);
+      setError(null);
     } catch (e: unknown) {
-      setError(e instanceof Error ? e.message : 'Failed to load cameras');
+      const msg = e instanceof Error ? e.message : 'Failed to load cameras';
+      setError(msg);
+      console.warn('[CameraContext] load error:', msg);
     }
   }, []);
 
@@ -60,11 +63,11 @@ export function CameraProvider({ children }: { children: React.ReactNode }) {
     load().finally(() => setIsLoading(false));
   }, [load]);
 
-  // Periodic status refresh (simulates live latency updates)
+  // Periodic status refresh from backend
   useEffect(() => {
     pollRef.current = setInterval(async () => {
       try {
-        const refreshed = await mockCameraService.refreshStatuses();
+        const refreshed = await cameraApiService.refreshStatuses();
         setCameras(refreshed);
       } catch {
         // Silent fail for background poll
@@ -77,14 +80,14 @@ export function CameraProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const addCamera = useCallback(async (payload: CameraPayload): Promise<Camera> => {
-    const cam = await mockCameraService.create(payload);
+    const cam = await cameraApiService.create(payload);
     setCameras(prev => [...prev, cam]);
     return cam;
   }, []);
 
   const updateCamera = useCallback(
     async (id: string, payload: Partial<CameraPayload>): Promise<Camera> => {
-      const updated = await mockCameraService.update(id, payload);
+      const updated = await cameraApiService.update(id, payload);
       setCameras(prev => prev.map(c => (c.id === id ? updated : c)));
       return updated;
     },
@@ -92,14 +95,14 @@ export function CameraProvider({ children }: { children: React.ReactNode }) {
   );
 
   const deleteCamera = useCallback(async (id: string): Promise<void> => {
-    await mockCameraService.delete(id);
+    await cameraApiService.delete(id);
     setCameras(prev => prev.filter(c => c.id !== id));
   }, []);
 
   const testConnection = useCallback(
     async (id: string): Promise<{ success: boolean; latencyMs: number }> => {
-      const result = await mockCameraService.testConnection(id);
-      // Reflect updated status in state
+      const result = await cameraApiService.testConnection(id);
+      // Reflect updated status in local state
       if (result.success) {
         setCameras(prev =>
           prev.map(c =>
@@ -107,6 +110,10 @@ export function CameraProvider({ children }: { children: React.ReactNode }) {
               ? { ...c, status: 'online', latencyMs: result.latencyMs, lastSeenAt: new Date().toISOString() }
               : c,
           ),
+        );
+      } else {
+        setCameras(prev =>
+          prev.map(c => (c.id === id ? { ...c, status: 'offline', latencyMs: 0 } : c)),
         );
       }
       return result;
