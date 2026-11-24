@@ -6,7 +6,7 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Tabs } from 'expo-router';
-import { LayoutDashboard, Camera, BellRing, Settings } from 'lucide-react-native';
+import { LayoutDashboard, Camera, BellRing, Settings, ScanLine } from 'lucide-react-native';
 import { IRColors, FontSizes, FontWeights, Spacing } from '@/constants/theme';
 import { useAlerts } from '@/contexts/AlertContext';
 
@@ -93,6 +93,15 @@ export default function TabsLayout() {
           title: 'Cameras',
           tabBarIcon: ({ color }) => (
             <TabIcon icon={<Camera size={22} color={color} />} focused={false} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="detect"
+        options={{
+          title: 'Detect',
+          tabBarIcon: ({ color }) => (
+            <TabIcon icon={<ScanLine size={22} color={color} />} focused={false} />
           ),
         }}
       />

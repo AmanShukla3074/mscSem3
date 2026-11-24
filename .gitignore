@@ -12,3 +12,15 @@ dist/
 !README.md
 *.pt
 *.onnx
+
+# Datasets
+Dataset/claude_ds_28sep/
+Dataset/claude_ds_28sep_v1/
+Dataset/claude_ds_28sep.zip
+Dataset/yolo_dataset/
+Dataset/yolo_ds_ta=27.0/
+Dataset/models/
+*.blend
+*.blend1
+*.fbx
+*.glb

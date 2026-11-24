@@ -15,7 +15,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from app.routers import cameras, alerts, system
+from app.routers import cameras, alerts, system, detect
 from app.services.store import store, DATA_DIR
 from app.services.video_stream import camera_registry
 from app.shutdown import shutdown_event
@@ -84,6 +84,7 @@ app.add_middleware(
 app.include_router(cameras.router)
 app.include_router(alerts.router)
 app.include_router(system.router)
+app.include_router(detect.router)
 
 
 # ─────────────────────────────────────────────

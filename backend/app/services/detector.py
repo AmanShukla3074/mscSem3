@@ -1,16 +1,3 @@
-"""
-services/detector.py
-Real-time YOLO object detection service for Fasal Rakshak.
-
-Loads yolov8n.pt once at import time (lazy, thread-safe singleton).
-Applies CLAHE contrast enhancement before inference.
-Filters results to the target class list with a confidence threshold.
-
-Usage:
-    from app.services.detector import detector
-    detections = detector.run(frame_bgr)
-"""
-
 from __future__ import annotations
 
 import threading
@@ -22,9 +9,6 @@ from typing import List, Optional
 import cv2
 import numpy as np
 
-# ── Target classes and their AnimalType enum mapping ──────────────────────────
-
-# YOLO COCO class names that we care about → AnimalType enum value
 YOLO_CLASS_MAP: dict[str, str] = {
     "cell phone": "Mobile Phone",
     "mouse":      "Mouse",
@@ -32,15 +16,13 @@ YOLO_CLASS_MAP: dict[str, str] = {
 }
 
 ALERT_CLASS_THRESHOLDS: dict[str, float] = {
-    "cell phone": 0.65,   # High threshold to prevent hands/earbuds from triggering
-    "mouse": 0.28,        # Sensitivity tuned for desk mice
-    "remote": 0.35,       # Dusters / handheld remotes
+    "cell phone": 0.65, 
+    "mouse": 0.28,       
+    "remote": 0.35,     
 }
 
 MODEL_PATH = Path(__file__).parent.parent.parent / "models" / "yolov8n.pt"
 
-
-# ── Detection result dataclass ─────────────────────────────────────────────────
 
 @dataclass
 class Detection:
@@ -48,8 +30,6 @@ class Detection:
     confidence: float        # 0–1
     bbox_norm: dict          # {x, y, width, height} normalised 0–1
 
-
-# ── Singleton detector ─────────────────────────────────────────────────────────
 
 class YOLODetector:
     """

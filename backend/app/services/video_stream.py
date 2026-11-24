@@ -18,18 +18,11 @@ if TYPE_CHECKING:
 
 import cv2
 import numpy as np
-
-# ── MUST be set before any cv2.VideoCapture call ──────────────────────────────
-# ONLY rtsp_transport;tcp — verified working on 2026-09-21.
-# Extra flags (stimeout, fflags, flags=low_delay) break the handshake on this stream.
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = (
     "rtsp_transport;tcp;stimeout;4000000;fflags;nobuffer;flags;low_delay"
 )
 
 
-# ─────────────────────────────────────────────
-# Synthetic IR offline frame generator
-# ─────────────────────────────────────────────
 
 def _make_offline_frame(width: int = 640, height: int = 360) -> np.ndarray:
     """
@@ -443,7 +436,7 @@ class CameraRegistry:
 
     def start(self, camera_id: str, rtsp_url: str) -> CameraManager:
         with self._lock:
-            if camera_id in self._managers:
+            if camera_id in self._managers: 
                 mgr = self._managers[camera_id]
                 if mgr.rtsp_url != rtsp_url:
                     # URL changed — tell the worker non-destructively; it will

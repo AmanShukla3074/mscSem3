@@ -4,17 +4,2392 @@
       "id": "cam-1",
       "name": "CP-E25A Forward Harvester",
       "type": "WiFi",
-      "stream_url": "rtsp://admin:amanhehe@10.24.158.124:5543/live/channel1",
-      "ip_address": "10.24.158.124",
+      "stream_url": "rtsp://admin:amanhehe@10.238.179.124:5543/live/channel1",
+      "ip_address": "10.238.179.124",
       "port": 5543,
       "field_location": "Plot A - Front Header",
       "crop_density": "Medium",
       "status": "offline",
       "latency_ms": 0,
-      "last_seen_at": "2026-09-21T17:45:36.008431+00:00"
+      "last_seen_at": "2026-11-03T05:10:52.802307+00:00"
     }
   ],
   "alerts": [
+    {
+      "id": "det-2e2246acf8",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:01:23.297376+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7049,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2e2246acf8/snapshot",
+      "bounding_box": {
+        "x": 0.6611,
+        "y": 0.1589,
+        "width": 0.0756,
+        "height": 0.0891
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-d9ee1fb3dd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:01:19.262720+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.401,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d9ee1fb3dd/snapshot",
+      "bounding_box": {
+        "x": 0.0405,
+        "y": 0.5362,
+        "width": 0.0475,
+        "height": 0.1707
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0b59aaf282",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:01:12.731331+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3729,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0b59aaf282/snapshot",
+      "bounding_box": {
+        "x": 0.0366,
+        "y": 0.4962,
+        "width": 0.05,
+        "height": 0.18
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-5fcddb72bd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:01:03.557096+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7121,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5fcddb72bd/snapshot",
+      "bounding_box": {
+        "x": 0.6835,
+        "y": 0.1692,
+        "width": 0.0725,
+        "height": 0.1157
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-e59c4cda6e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:01:01.059540+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3905,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e59c4cda6e/snapshot",
+      "bounding_box": {
+        "x": 0.0384,
+        "y": 0.5775,
+        "width": 0.0545,
+        "height": 0.0822
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-be280d4964",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:00:53.745256+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7946,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-be280d4964/snapshot",
+      "bounding_box": {
+        "x": 0.5306,
+        "y": 0.0988,
+        "width": 0.2264,
+        "height": 0.6958
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-5c2a2296b0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:00:29.305545+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3519,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5c2a2296b0/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.4873,
+        "width": 0.0339,
+        "height": 0.1959
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-b17df71975",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T07:00:11.007270+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3639,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b17df71975/snapshot",
+      "bounding_box": {
+        "x": 0.0083,
+        "y": 0.4645,
+        "width": 0.0503,
+        "height": 0.0825
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-075d14b0a8",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:58:28.159399+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3524,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-075d14b0a8/snapshot",
+      "bounding_box": {
+        "x": 0.2588,
+        "y": 0.6714,
+        "width": 0.0542,
+        "height": 0.067
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-e3457af822",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:58:24.015060+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3626,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e3457af822/snapshot",
+      "bounding_box": {
+        "x": 0.1633,
+        "y": 0.587,
+        "width": 0.0889,
+        "height": 0.1249
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-839d0be9b5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:57:49.328268+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4549,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-839d0be9b5/snapshot",
+      "bounding_box": {
+        "x": 0.1825,
+        "y": 0.4866,
+        "width": 0.0819,
+        "height": 0.1673
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9a3f32dce5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:57:39.740560+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3679,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9a3f32dce5/snapshot",
+      "bounding_box": {
+        "x": 0.7045,
+        "y": 0.4607,
+        "width": 0.0953,
+        "height": 0.1354
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2ddabf328a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:56:50.527323+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3537,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2ddabf328a/snapshot",
+      "bounding_box": {
+        "x": 0.2378,
+        "y": 0.5851,
+        "width": 0.089,
+        "height": 0.0966
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-1308f1fec9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:56:18.120414+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.427,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-1308f1fec9/snapshot",
+      "bounding_box": {
+        "x": 0.0987,
+        "y": 0.7333,
+        "width": 0.0946,
+        "height": 0.067
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-632903d964",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:48:37.766848+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3992,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-632903d964/snapshot",
+      "bounding_box": {
+        "x": 0.1912,
+        "y": 0.6706,
+        "width": 0.078,
+        "height": 0.0549
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2f90026133",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:47:54.146314+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.36,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2f90026133/snapshot",
+      "bounding_box": {
+        "x": 0.223,
+        "y": 0.6418,
+        "width": 0.093,
+        "height": 0.0737
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-05052cabf1",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:47:48.486548+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3642,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-05052cabf1/snapshot",
+      "bounding_box": {
+        "x": 0.1901,
+        "y": 0.5628,
+        "width": 0.0906,
+        "height": 0.0683
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-cd6dc7e750",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:47:15.526635+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3986,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cd6dc7e750/snapshot",
+      "bounding_box": {
+        "x": 0.1729,
+        "y": 0.5493,
+        "width": 0.1041,
+        "height": 0.0781
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0d24974854",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:47:08.560489+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4658,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0d24974854/snapshot",
+      "bounding_box": {
+        "x": 0.2302,
+        "y": 0.5824,
+        "width": 0.0703,
+        "height": 0.0507
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-242fa10bf3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:46:59.627092+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3994,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-242fa10bf3/snapshot",
+      "bounding_box": {
+        "x": 0.1217,
+        "y": 0.639,
+        "width": 0.1125,
+        "height": 0.0828
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-28c1ec663d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:46:37.594737+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4036,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-28c1ec663d/snapshot",
+      "bounding_box": {
+        "x": 0.6056,
+        "y": 0.3757,
+        "width": 0.0515,
+        "height": 0.0814
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c79f48a22d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:46:12.424023+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3703,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c79f48a22d/snapshot",
+      "bounding_box": {
+        "x": 0.2006,
+        "y": 0.6678,
+        "width": 0.0531,
+        "height": 0.0337
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e488f8b7ba",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:45:42.391455+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3578,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e488f8b7ba/snapshot",
+      "bounding_box": {
+        "x": 0.2805,
+        "y": 0.4911,
+        "width": 0.0655,
+        "height": 0.0378
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-80a5b9d614",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:45:38.365509+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4655,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-80a5b9d614/snapshot",
+      "bounding_box": {
+        "x": 0.7357,
+        "y": 0.4794,
+        "width": 0.0369,
+        "height": 0.0396
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b64dc8e15c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:44:49.717460+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3719,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b64dc8e15c/snapshot",
+      "bounding_box": {
+        "x": 0.1069,
+        "y": 0.6202,
+        "width": 0.0781,
+        "height": 0.0564
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a1b924644f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:44:38.247537+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4551,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a1b924644f/snapshot",
+      "bounding_box": {
+        "x": 0.7005,
+        "y": 0.3647,
+        "width": 0.0565,
+        "height": 0.1682
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e1bc9d1bbd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:44:01.106950+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4275,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e1bc9d1bbd/snapshot",
+      "bounding_box": {
+        "x": 0.0021,
+        "y": 0.5952,
+        "width": 0.1392,
+        "height": 0.0616
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d1ddd9a834",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:41:49.658034+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.4953,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d1ddd9a834/snapshot",
+      "bounding_box": {
+        "x": 0.0758,
+        "y": 0.5671,
+        "width": 0.0525,
+        "height": 0.051
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-97b285973f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-22T06:41:45.514357+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3569,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-97b285973f/snapshot",
+      "bounding_box": {
+        "x": 0.1126,
+        "y": 0.6354,
+        "width": 0.1408,
+        "height": 0.0915
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a4317c72c0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:18:18.997076+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7715,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a4317c72c0/snapshot",
+      "bounding_box": {
+        "x": 0.6897,
+        "y": 0.6154,
+        "width": 0.3096,
+        "height": 0.3846
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-22237bd195",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:18:14.199504+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7044,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-22237bd195/snapshot",
+      "bounding_box": {
+        "x": 0.6906,
+        "y": 0.6892,
+        "width": 0.309,
+        "height": 0.3045
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c9cf9e59ae",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:18:09.626407+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7527,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c9cf9e59ae/snapshot",
+      "bounding_box": {
+        "x": 0.7203,
+        "y": 0.6138,
+        "width": 0.2794,
+        "height": 0.3815
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-88d1ad70d1",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:18:04.827937+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9239,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-88d1ad70d1/snapshot",
+      "bounding_box": {
+        "x": 0.3126,
+        "y": 0.3634,
+        "width": 0.4905,
+        "height": 0.5048
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2b4c13860a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:18:03.201623+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.9361,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2b4c13860a/snapshot",
+      "bounding_box": {
+        "x": 0.8089,
+        "y": 0.379,
+        "width": 0.1899,
+        "height": 0.3204
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7cd5151e49",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:18:00.779998+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9479,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7cd5151e49/snapshot",
+      "bounding_box": {
+        "x": 0.3199,
+        "y": 0.3619,
+        "width": 0.4965,
+        "height": 0.5161
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-db4457792d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:59.171965+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.948,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-db4457792d/snapshot",
+      "bounding_box": {
+        "x": 0.8104,
+        "y": 0.3802,
+        "width": 0.1885,
+        "height": 0.3186
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6ddc1f1bf3",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:56.748727+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7795,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6ddc1f1bf3/snapshot",
+      "bounding_box": {
+        "x": 0.2092,
+        "y": 0.5394,
+        "width": 0.4711,
+        "height": 0.4388
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d97eecd58d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:55.125879+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3514,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d97eecd58d/snapshot",
+      "bounding_box": {
+        "x": 0.6372,
+        "y": 0.5361,
+        "width": 0.1911,
+        "height": 0.2693
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-08bd5c3eca",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:52.634099+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9235,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-08bd5c3eca/snapshot",
+      "bounding_box": {
+        "x": 0.1443,
+        "y": 0.5342,
+        "width": 0.4319,
+        "height": 0.4073
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8e320de074",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:50.982175+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.6422,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8e320de074/snapshot",
+      "bounding_box": {
+        "x": 0.5811,
+        "y": 0.5522,
+        "width": 0.1709,
+        "height": 0.1862
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-9f16d431ff",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:48.583946+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.8157,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-9f16d431ff/snapshot",
+      "bounding_box": {
+        "x": 0.1472,
+        "y": 0.5452,
+        "width": 0.4252,
+        "height": 0.4073
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-8dd8b16a50",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:46.942301+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5667,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-8dd8b16a50/snapshot",
+      "bounding_box": {
+        "x": 0.5802,
+        "y": 0.5707,
+        "width": 0.1693,
+        "height": 0.1924
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d8bd32cfb4",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:44.537996+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.8989,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d8bd32cfb4/snapshot",
+      "bounding_box": {
+        "x": 0.1093,
+        "y": 0.5421,
+        "width": 0.4276,
+        "height": 0.3859
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-737799ea71",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:42.914381+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5266,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-737799ea71/snapshot",
+      "bounding_box": {
+        "x": 0.2661,
+        "y": 0.461,
+        "width": 0.1541,
+        "height": 0.1626
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f6870e2c3b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:40.495584+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6872,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f6870e2c3b/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.442,
+        "width": 0.2511,
+        "height": 0.3271
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-57122f8208",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:38.873240+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.7595,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-57122f8208/snapshot",
+      "bounding_box": {
+        "x": 0.1721,
+        "y": 0.2942,
+        "width": 0.1544,
+        "height": 0.1822
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d1cd796719",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:36.451105+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9142,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d1cd796719/snapshot",
+      "bounding_box": {
+        "x": 0.0002,
+        "y": 0.1778,
+        "width": 0.1666,
+        "height": 0.3642
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-d416fe0b70",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:32.532084+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5103,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d416fe0b70/snapshot",
+      "bounding_box": {
+        "x": 0.4824,
+        "y": 0.4793,
+        "width": 0.0779,
+        "height": 0.232
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-00d6466d25",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:29.259310+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.925,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-00d6466d25/snapshot",
+      "bounding_box": {
+        "x": 0.3503,
+        "y": 0.0032,
+        "width": 0.4041,
+        "height": 0.9028
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0e169b0024",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:25.168927+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4822,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0e169b0024/snapshot",
+      "bounding_box": {
+        "x": 0.1103,
+        "y": 0.3209,
+        "width": 0.1672,
+        "height": 0.1501
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-5b0783049b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:25.167631+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6944,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5b0783049b/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.5259,
+        "width": 0.2243,
+        "height": 0.3519
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2ea9413054",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:20.653217+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.8203,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2ea9413054/snapshot",
+      "bounding_box": {
+        "x": 0.0071,
+        "y": 0.0013,
+        "width": 0.5212,
+        "height": 0.5658
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b65a4bd74d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:09.640507+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.525,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b65a4bd74d/snapshot",
+      "bounding_box": {
+        "x": 0.0034,
+        "y": 0.0429,
+        "width": 0.6253,
+        "height": 0.6011
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-035f02dbfa",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:07.653960+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6937,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-035f02dbfa/snapshot",
+      "bounding_box": {
+        "x": 0.5187,
+        "y": 0.0029,
+        "width": 0.3114,
+        "height": 0.2049
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-b39c2aaf09",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:04.627643+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.38,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b39c2aaf09/snapshot",
+      "bounding_box": {
+        "x": 0.7755,
+        "y": 0.1299,
+        "width": 0.1712,
+        "height": 0.1542
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-16d4c280ff",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:03.294227+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6629,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-16d4c280ff/snapshot",
+      "bounding_box": {
+        "x": 0.1905,
+        "y": 0.0284,
+        "width": 0.4744,
+        "height": 0.7475
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d191409ccf",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:17:01.126873+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3628,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d191409ccf/snapshot",
+      "bounding_box": {
+        "x": 0.1993,
+        "y": 0.094,
+        "width": 0.6485,
+        "height": 0.7642
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-895151e769",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:58.618266+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.585,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-895151e769/snapshot",
+      "bounding_box": {
+        "x": 0.6305,
+        "y": 0.1014,
+        "width": 0.1795,
+        "height": 0.2607
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-11aea856a8",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:55.353889+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3507,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-11aea856a8/snapshot",
+      "bounding_box": {
+        "x": 0.165,
+        "y": 0.0613,
+        "width": 0.6966,
+        "height": 0.8065
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-7dca267089",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:54.281439+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4648,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7dca267089/snapshot",
+      "bounding_box": {
+        "x": 0.2991,
+        "y": 0.1369,
+        "width": 0.1572,
+        "height": 0.225
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d84e5ed67a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:53.050038+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.684,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d84e5ed67a/snapshot",
+      "bounding_box": {
+        "x": 0.0002,
+        "y": 0.1433,
+        "width": 0.5454,
+        "height": 0.6804
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-cee0b045da",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:49.891688+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.8023,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cee0b045da/snapshot",
+      "bounding_box": {
+        "x": 0.0175,
+        "y": 0.1478,
+        "width": 0.1569,
+        "height": 0.271
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0f00643b6c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:45.847885+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5118,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0f00643b6c/snapshot",
+      "bounding_box": {
+        "x": 0.2283,
+        "y": 0.2348,
+        "width": 0.1842,
+        "height": 0.1431
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-29928da659",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:45.001001+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.5464,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-29928da659/snapshot",
+      "bounding_box": {
+        "x": 0.0002,
+        "y": 0.4494,
+        "width": 0.4777,
+        "height": 0.3331
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-bcebf2f62b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:43.145500+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.755,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-bcebf2f62b/snapshot",
+      "bounding_box": {
+        "x": 0.0743,
+        "y": 0.6559,
+        "width": 0.6167,
+        "height": 0.3388
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d05c4f89bc",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:41.753020+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.7327,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d05c4f89bc/snapshot",
+      "bounding_box": {
+        "x": 0.2493,
+        "y": 0.2119,
+        "width": 0.213,
+        "height": 0.2366
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e8b19a95dc",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:38.779582+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6785,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e8b19a95dc/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.379,
+        "width": 0.4488,
+        "height": 0.4569
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-04d23b0fca",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:34.205103+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3516,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-04d23b0fca/snapshot",
+      "bounding_box": {
+        "x": 0.0527,
+        "y": 0.0726,
+        "width": 0.21,
+        "height": 0.1922
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-7d397b472b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:29.808288+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.6825,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7d397b472b/snapshot",
+      "bounding_box": {
+        "x": 0.2044,
+        "y": 0.3417,
+        "width": 0.1343,
+        "height": 0.3198
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-a7c5826132",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:19.571264+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.29,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a7c5826132/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.1716,
+        "width": 0.1198,
+        "height": 0.3899
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-055d0ef91f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:14.879072+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7347,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-055d0ef91f/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.149,
+        "width": 0.3534,
+        "height": 0.6645
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-853f8e2f94",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:11.939870+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3891,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-853f8e2f94/snapshot",
+      "bounding_box": {
+        "x": 0.0044,
+        "y": 0.1381,
+        "width": 0.2017,
+        "height": 0.2742
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-5bdcfb9938",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:16:03.778425+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5273,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5bdcfb9938/snapshot",
+      "bounding_box": {
+        "x": 0.1889,
+        "y": 0.0469,
+        "width": 0.2028,
+        "height": 0.1923
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-cad8e8608b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:59.818907+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7441,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-cad8e8608b/snapshot",
+      "bounding_box": {
+        "x": 0.006,
+        "y": 0.265,
+        "width": 0.5258,
+        "height": 0.4842
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e17b36186e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:59.503397+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3158,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e17b36186e/snapshot",
+      "bounding_box": {
+        "x": 0.1425,
+        "y": 0.0492,
+        "width": 0.1878,
+        "height": 0.1819
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-c87d16501a",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:50.892525+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5627,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c87d16501a/snapshot",
+      "bounding_box": {
+        "x": 0.4601,
+        "y": 0.7323,
+        "width": 0.139,
+        "height": 0.213
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-0b0fc8f001",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:37.030036+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.8258,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0b0fc8f001/snapshot",
+      "bounding_box": {
+        "x": 0.1984,
+        "y": 0.4564,
+        "width": 0.2873,
+        "height": 0.3192
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-dd4fa7d456",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:32.989973+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4565,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dd4fa7d456/snapshot",
+      "bounding_box": {
+        "x": 0.7848,
+        "y": 0.3638,
+        "width": 0.2148,
+        "height": 0.2731
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-c305e8f320",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:28.300714+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3639,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c305e8f320/snapshot",
+      "bounding_box": {
+        "x": 0.2212,
+        "y": 0.3626,
+        "width": 0.2504,
+        "height": 0.1034
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-299a5ec221",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:27.655136+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.9024,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-299a5ec221/snapshot",
+      "bounding_box": {
+        "x": 0.5286,
+        "y": 0.5744,
+        "width": 0.2574,
+        "height": 0.2468
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-412286bc7f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:19.697481+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5853,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-412286bc7f/snapshot",
+      "bounding_box": {
+        "x": 0.4994,
+        "y": 0.3528,
+        "width": 0.2691,
+        "height": 0.28
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-c96f462e37",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:06.075049+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.651,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-c96f462e37/snapshot",
+      "bounding_box": {
+        "x": 0.1784,
+        "y": 0.0868,
+        "width": 0.4326,
+        "height": 0.7016
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-297ebffcbb",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:15:01.386963+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.752,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-297ebffcbb/snapshot",
+      "bounding_box": {
+        "x": 0.6173,
+        "y": 0.0864,
+        "width": 0.2941,
+        "height": 0.3671
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-183ca16cd2",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:14:59.021407+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.8008,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-183ca16cd2/snapshot",
+      "bounding_box": {
+        "x": 0.4388,
+        "y": 0.2367,
+        "width": 0.5602,
+        "height": 0.5822
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-43b683c4d8",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:14:57.338577+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.307,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-43b683c4d8/snapshot",
+      "bounding_box": {
+        "x": 0.4814,
+        "y": 0.0037,
+        "width": 0.2559,
+        "height": 0.2538
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-589e5fbaca",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:14:57.135766+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.397,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-589e5fbaca/snapshot",
+      "bounding_box": {
+        "x": 0.4016,
+        "y": 0.1939,
+        "width": 0.5915,
+        "height": 0.5499
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d233a677f7",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:14:31.713687+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.8175,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d233a677f7/snapshot",
+      "bounding_box": {
+        "x": 0.4701,
+        "y": 0.3973,
+        "width": 0.5285,
+        "height": 0.5412
+      },
+      "status": "resolved",
+      "severity": "critical",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-902fe2d08e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:14:20.269747+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3621,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-902fe2d08e/snapshot",
+      "bounding_box": {
+        "x": 0.4846,
+        "y": 0.3911,
+        "width": 0.515,
+        "height": 0.4194
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-4c6a87a413",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:05:20.930902+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4508,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-4c6a87a413/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.4822,
+        "width": 0.4883,
+        "height": 0.3723
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-186a6f4467",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:05:07.748052+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.525,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-186a6f4467/snapshot",
+      "bounding_box": {
+        "x": 0.3729,
+        "y": 0.4663,
+        "width": 0.1789,
+        "height": 0.2274
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-dc92381969",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:03:43.339542+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5395,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-dc92381969/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.2666,
+        "width": 0.535,
+        "height": 0.5768
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-12bf140998",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:01:21.896131+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.2905,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-12bf140998/snapshot",
+      "bounding_box": {
+        "x": 0.0016,
+        "y": 0.2697,
+        "width": 0.6322,
+        "height": 0.695
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-642ab3f193",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:01:15.222166+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.347,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-642ab3f193/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.3252,
+        "width": 0.5143,
+        "height": 0.6602
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Manually resolved from audit log"
+    },
+    {
+      "id": "det-45204d56ee",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:01:08.018361+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3279,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-45204d56ee/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.2922,
+        "width": 0.4567,
+        "height": 0.6941
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Manually resolved from audit log"
+    },
+    {
+      "id": "det-de3f340ec9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:01:01.158986+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3307,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-de3f340ec9/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.3005,
+        "width": 0.462,
+        "height": 0.6791
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Manually resolved from audit log"
+    },
+    {
+      "id": "det-b7c653fe8f",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:00:47.512344+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.2843,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-b7c653fe8f/snapshot",
+      "bounding_box": {
+        "x": 0.0008,
+        "y": 0.3294,
+        "width": 0.5245,
+        "height": 0.6553
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Manually resolved from audit log"
+    },
+    {
+      "id": "det-5afbeb09c6",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:00:43.478433+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4226,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5afbeb09c6/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.428,
+        "width": 0.2838,
+        "height": 0.4998
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-7955a74605",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:00:35.335555+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.2953,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-7955a74605/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.7937,
+        "width": 0.2227,
+        "height": 0.2014
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-2c18521acc",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T18:00:28.559250+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3349,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2c18521acc/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.3615,
+        "width": 0.0604,
+        "height": 0.3712
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-e744ee7979",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:58:27.056086+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.6159,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e744ee7979/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.2809,
+        "width": 0.301,
+        "height": 0.4672
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-28dae75218",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:58:21.067668+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3439,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-28dae75218/snapshot",
+      "bounding_box": {
+        "x": 0.0007,
+        "y": 0.7971,
+        "width": 0.2092,
+        "height": 0.1963
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-a66c8faeda",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:58:17.035207+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3031,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-a66c8faeda/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.7939,
+        "width": 0.2113,
+        "height": 0.2014
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6859ba1076",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:58:12.555693+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3861,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6859ba1076/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.5363,
+        "width": 0.2566,
+        "height": 0.4534
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-80f8e39c19",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:58:08.508308+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3469,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-80f8e39c19/snapshot",
+      "bounding_box": {
+        "x": 0.0005,
+        "y": 0.5069,
+        "width": 0.2813,
+        "height": 0.4813
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ba362e244e",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:58:04.025334+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4299,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ba362e244e/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.4963,
+        "width": 0.2582,
+        "height": 0.4928
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-d2f5aeeb84",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:58.591638+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.6861,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-d2f5aeeb84/snapshot",
+      "bounding_box": {
+        "x": 0.0002,
+        "y": 0.4611,
+        "width": 0.2756,
+        "height": 0.5247
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-04f2f49ce1",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:54.540282+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.6339,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-04f2f49ce1/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.4769,
+        "width": 0.2831,
+        "height": 0.5083
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-ee19212aee",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:50.503477+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3146,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ee19212aee/snapshot",
+      "bounding_box": {
+        "x": 0.0002,
+        "y": 0.478,
+        "width": 0.2825,
+        "height": 0.5125
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6a9959c31c",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:44.941234+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3005,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6a9959c31c/snapshot",
+      "bounding_box": {
+        "x": 0.0002,
+        "y": 0.4703,
+        "width": 0.2765,
+        "height": 0.5188
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-f0bd1f6284",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:38.982368+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.2941,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-f0bd1f6284/snapshot",
+      "bounding_box": {
+        "x": 0.0001,
+        "y": 0.402,
+        "width": 0.3002,
+        "height": 0.5781
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-587da3f8a9",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:20.626744+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.5049,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-587da3f8a9/snapshot",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.3542,
+        "width": 0.3504,
+        "height": 0.6195
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
+    {
+      "id": "det-10476d5850",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:13.431058+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.3518,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-10476d5850/snapshot",
+      "bounding_box": {
+        "x": 0.0023,
+        "y": 0.1427,
+        "width": 0.6252,
+        "height": 0.6871
+      },
+      "status": "acknowledged",
+      "severity": "warning",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-01eba2b707",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:06.247624+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.9151,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-01eba2b707/snapshot",
+      "bounding_box": {
+        "x": 0.4309,
+        "y": 0.3279,
+        "width": 0.5447,
+        "height": 0.6512
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-3ade485fb5",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:57:02.202825+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.9174,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-3ade485fb5/snapshot",
+      "bounding_box": {
+        "x": 0.3667,
+        "y": 0.3419,
+        "width": 0.5477,
+        "height": 0.6436
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-5576b4bd88",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:58.185182+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.9713,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5576b4bd88/snapshot",
+      "bounding_box": {
+        "x": 0.3914,
+        "y": 0.369,
+        "width": 0.4786,
+        "height": 0.5335
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-e9edb624ae",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:57.295904+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9065,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-e9edb624ae/snapshot",
+      "bounding_box": {
+        "x": 0.1336,
+        "y": 0.1264,
+        "width": 0.6118,
+        "height": 0.6664
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-257ae8d486",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:53.252455+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9194,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-257ae8d486/snapshot",
+      "bounding_box": {
+        "x": 0.1103,
+        "y": 0.0561,
+        "width": 0.5934,
+        "height": 0.688
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-0ce39f9e15",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:49.199448+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.7361,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-0ce39f9e15/snapshot",
+      "bounding_box": {
+        "x": 0.107,
+        "y": 0.0017,
+        "width": 0.5494,
+        "height": 0.4307
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-5fdd3dd5b0",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:45.073337+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9665,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-5fdd3dd5b0/snapshot",
+      "bounding_box": {
+        "x": 0.3567,
+        "y": 0.3457,
+        "width": 0.3526,
+        "height": 0.6432
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-08363e79cd",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:41.061895+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9396,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-08363e79cd/snapshot",
+      "bounding_box": {
+        "x": 0.3528,
+        "y": 0.2686,
+        "width": 0.354,
+        "height": 0.7129
+      },
+      "status": "acknowledged",
+      "severity": "critical",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-2b5b87ca20",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:37.004451+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.9023,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-2b5b87ca20/snapshot",
+      "bounding_box": {
+        "x": 0.3987,
+        "y": 0.4055,
+        "width": 0.3699,
+        "height": 0.5733
+      },
+      "status": "active",
+      "severity": "critical",
+      "resolution_note": null
+    },
+    {
+      "id": "det-6b127160c4",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:56:26.620382+00:00",
+      "animal_type": "Mouse",
+      "confidence_score": 0.4935,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-6b127160c4/snapshot",
+      "bounding_box": {
+        "x": 0.2822,
+        "y": 0.9178,
+        "width": 0.1997,
+        "height": 0.0814
+      },
+      "status": "acknowledged",
+      "severity": "warning",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-677a5938a1",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:54:56.551784+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6935,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-677a5938a1/snapshot",
+      "bounding_box": {
+        "x": 0.6204,
+        "y": 0.4169,
+        "width": 0.0414,
+        "height": 0.0872
+      },
+      "status": "acknowledged",
+      "severity": "warning",
+      "resolution_note": "Operator acknowledged \u2014 slowing harvester"
+    },
+    {
+      "id": "det-ef69f7157b",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:54:36.148706+00:00",
+      "animal_type": "Mobile Phone",
+      "confidence_score": 0.6633,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-ef69f7157b/snapshot",
+      "bounding_box": {
+        "x": 0.6656,
+        "y": 0.1126,
+        "width": 0.0576,
+        "height": 0.3272
+      },
+      "status": "active",
+      "severity": "warning",
+      "resolution_note": null
+    },
+    {
+      "id": "det-52d8c81d6d",
+      "camera_id": "cam-1",
+      "camera_name": "CP-E25A Forward Harvester",
+      "timestamp": "2026-09-21T17:50:50.499478+00:00",
+      "animal_type": "Duster / Remote",
+      "confidence_score": 0.3891,
+      "crop_density": "Medium",
+      "snapshot_uri": "/api/alerts/det-52d8c81d6d/snapshot",
+      "bounding_box": {
+        "x": 0.798,
+        "y": 0.7019,
+        "width": 0.1088,
+        "height": 0.098
+      },
+      "status": "resolved",
+      "severity": "warning",
+      "resolution_note": "Dismissed \u2014 False Alarm"
+    },
     {
       "id": "det-ab5c44a253",
       "camera_id": "cam-1",
